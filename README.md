@@ -33,8 +33,8 @@ Tools         Claude Code · Antigravity CLI · Cursor
 ## Numbers
 
 <p align="left">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=AkashPriyadarshii&show_icons=true&theme=transparent&hide_border=true&title_color=7c3aed&icon_color=7c3aed&text_color=f0f0f5&count_private=true&include_all_commits=true" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkashPriyadarshii&layout=compact&theme=transparent&hide_border=true&title_color=7c3aed&text_color=f0f0f5&langs_count=6" />
+  <img height="160em" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=AkashPriyadarshii&show_icons=true&theme=transparent&hide_border=true&title_color=7c3aed&icon_color=7c3aed&text_color=f0f0f5&count_private=true&include_all_commits=true" />
+  <img height="160em" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=AkashPriyadarshii&layout=compact&theme=transparent&hide_border=true&title_color=7c3aed&text_color=f0f0f5&langs_count=6" />
 </p>
 
 <img src="https://streak-stats.demolab.com?user=AkashPriyadarshii&theme=transparent&hide_border=true&ring=7c3aed&fire=a855f7&currStreakLabel=f0f0f5&sideLabels=8888aa&dates=8888aa" height="130em" />
