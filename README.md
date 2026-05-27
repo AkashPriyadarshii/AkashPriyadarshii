@@ -12,7 +12,7 @@ Learning in public. Refining in private. Shipping anyway.
 ```
 📸  A gallery app that thinks.
     On-device ML. Zero cloud. Zero compromise. Built for one device, from scratch.
-    
+
     Why: Every gallery app is either dumb and offline or smart and surveillance.
          I wanted both — fully offline AND intelligent. So I'm building it.
 
@@ -25,23 +25,14 @@ Learning in public. Refining in private. Shipping anyway.
 
 ```
 Languages     Kotlin · Python · TypeScript · Swift · Rust · Shell
-Android       Jetpack Compose · CameraX · Media3 · LiteRT · Room · Hilt
-AI / ML       LiteRT · ML Kit GenAI · Gemma · Groq · Gemini · OpenRouter
-Systems       FastAPI · asyncio · Unix sockets · msgpack · MLX
-Web           Next.js · Supabase · Tailwind · shadcn/ui
-Tools         Claude Code · Antigravity CLI · Cursor · macOS · Android 16
+Tools         Claude Code · Antigravity CLI · Cursor
 ```
 
 ---
 
 ## Numbers
 
-<p align="left">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=AkashPriyadarshii&show_icons=true&theme=transparent&hide_border=true&title_color=7c3aed&icon_color=7c3aed&text_color=f0f0f5&bg_color=0a0a0f&count_private=true&include_all_commits=true" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkashPriyadarshii&layout=compact&theme=transparent&hide_border=true&title_color=7c3aed&text_color=f0f0f5&bg_color=0a0a0f&langs_count=6" />
-</p>
-
-<img src="https://streak-stats.demolab.com?user=AkashPriyadarshii&theme=transparent&hide_border=true&ring=7c3aed&fire=a855f7&currStreakLabel=f0f0f5&sideLabels=8888aa&dates=8888aa&background=0a0a0f" height="130em" />
+<img src="https://streak-stats.demolab.com?user=AkashPriyadarshii&theme=transparent&hide_border=true&ring=7c3aed&fire=a855f7&currStreakLabel=f0f0f5&sideLabels=8888aa&dates=8888aa" height="130em" />
 
 ---
 
