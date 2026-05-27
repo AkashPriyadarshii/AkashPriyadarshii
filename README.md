@@ -25,7 +25,7 @@ Learning in public. Refining in private. Shipping anyway.
 
 ```
 Languages     Kotlin · Python · TypeScript · Swift · Rust · Shell
-Tools         Claude Code · Antigravity CLI · Cursor
+Tools         Claude Code · Gemini CLI · Cursor
 ```
 
 ---
