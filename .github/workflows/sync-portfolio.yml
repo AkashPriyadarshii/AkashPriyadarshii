@@ -1,18 +1,38 @@
-name: Sync Portfolio
+name: Sync Portfolio Site
 
 on:
   push:
     branches:
       - main
-  workflow_dispatch:
+    paths:
+      - 'README.md'   # Only trigger when README actually changes
+
+  workflow_dispatch:   # Allow manual runs from Actions tab
 
 jobs:
   sync:
+    name: Ping site to pull latest profile data
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
       - name: Trigger Portfolio Auto-Sync
         run: |
-          curl -X POST \
+          echo "Pinging site sync endpoint..."
+
+          HTTP_STATUS=$(curl -s -o /tmp/response.json -w "%{http_code}" \
+            -X POST \
             -H "Content-Type: application/json" \
             -H "x-sync-secret: ${{ secrets.PORTFOLIO_SYNC_SECRET }}" \
-            https://akashpriyadarshi.vercel.app/api/github/sync
+            https://akashpriyadarshi.vercel.app/api/github/sync)
+
+          echo "HTTP Status: $HTTP_STATUS"
+          echo "Response:"
+          cat /tmp/response.json
+
+          if [ "$HTTP_STATUS" -ne 200 ]; then
+            echo "Sync failed with status $HTTP_STATUS"
+            exit 1
+          fi
+
+          echo "Portfolio synced successfully!"
