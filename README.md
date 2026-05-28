@@ -14,7 +14,7 @@ Learning in public. Refining in private. Shipping anyway.
     On-device ML. Zero cloud. Zero compromise. Built for one device, from scratch.
 
     Why: Every gallery app is either dumb and offline or smart and surveillance.
-         I wanted both — fully offline AND intelligent. So I'm building it.
+         I wanted both fully offline AND intelligent. So I'm building it.
 
     Start date: June 30, 2026
 ```
