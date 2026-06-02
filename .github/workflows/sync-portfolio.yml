@@ -1,19 +1,17 @@
 name: Sync Portfolio Site
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'README.md'   # Only trigger when README actually changes
-
   workflow_dispatch:   # Allow manual runs from Actions tab
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   sync:
     name: Ping site to pull latest profile data
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: Trigger Portfolio Auto-Sync
