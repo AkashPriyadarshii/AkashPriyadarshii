@@ -16,7 +16,7 @@ Learning in public. Refining in private. Shipping anyway.
     Why: Every gallery app is either dumb and offline or smart and surveillance.
          I wanted both fully offline AND intelligent. So I'm building it.
 
-    Start date: June 30, 2026
+    Start date: September 30, 2026
 ```
 
 ---
