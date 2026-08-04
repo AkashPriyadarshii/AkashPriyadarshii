@@ -40,7 +40,7 @@ I believe in owning your stack. Shipping ugly first drafts.
 Obsessing over the details nobody notices.
 
 Vibe-coding isn't a shortcut. It's a new craft.
-Karpathy said so. I'm proving it.
+Legends said so. I'm proving it.
 
 ---
 
