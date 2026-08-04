@@ -7,16 +7,11 @@ Learning in public. Refining in private. Shipping anyway.
 
 ---
 
-## Currently Building
+## Current Status 
 
 ```
-📸  A gallery app that thinks.
-    On-device ML. Zero cloud. Zero compromise. Built for one device, from scratch.
+Growing 
 
-    Why: Every gallery app is either dumb and offline or smart and surveillance.
-         I wanted both fully offline AND intelligent. So I'm building it.
-
-    Start date: September 30, 2026
 ```
 
 ---
