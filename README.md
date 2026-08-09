@@ -37,14 +37,6 @@
 | **repomap** | Token-budgeted repo maps for AI agents, stdlib-only Go |
 | **My-Starred-Repos** | Self-updating dashboard of 800+ curated starred repos, refreshed daily |
 
-## Stats
-
-<div align="center">
-
-![Streak](https://streak-stats.demolab.com?user=AkashPriyadarshii&theme=transparent&hide_border=true&ring=7c3aed&fire=a855f7&currStreakLabel=f0f0f5&sideLabels=8888aa&dates=8888aa)
-
-</div>
-
 ## Stack
 
 | Area | Tech |
