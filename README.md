@@ -19,12 +19,12 @@
 
 <div align="center">
 
-[![rustygrep](https://github-readme-stats.vercel.app/api/pin/?username=AkashPriyadarshii&repo=rustygrep&theme=transparent&hide_border=true&title_color=7c3aed&icon_color=7c3aed&text_color=8888aa&bg_color=0d1117)](https://github.com/AkashPriyadarshii/rustygrep)
-[![kharcha](https://github-readme-stats.vercel.app/api/pin/?username=AkashPriyadarshii&repo=kharcha&theme=transparent&hide_border=true&title_color=7c3aed&icon_color=7c3aed&text_color=8888aa&bg_color=0d1117)](https://github.com/AkashPriyadarshii/kharcha)
-[![tdlib-android](https://github-readme-stats.vercel.app/api/pin/?username=AkashPriyadarshii&repo=tdlib-android&theme=transparent&hide_border=true&title_color=7c3aed&icon_color=7c3aed&text_color=8888aa&bg_color=0d1117)](https://github.com/AkashPriyadarshii/tdlib-android)
-[![zcat](https://github-readme-stats.vercel.app/api/pin/?username=AkashPriyadarshii&repo=zcat&theme=transparent&hide_border=true&title_color=7c3aed&icon_color=7c3aed&text_color=8888aa&bg_color=0d1117)](https://github.com/AkashPriyadarshii/zcat)
-[![repomap](https://github-readme-stats.vercel.app/api/pin/?username=AkashPriyadarshii&repo=repomap&theme=transparent&hide_border=true&title_color=7c3aed&icon_color=7c3aed&text_color=8888aa&bg_color=0d1117)](https://github.com/AkashPriyadarshii/repomap)
-[![My-Starred-Repos](https://github-readme-stats.vercel.app/api/pin/?username=AkashPriyadarshii&repo=My-Starred-Repos&theme=transparent&hide_border=true&title_color=7c3aed&icon_color=7c3aed&text_color=8888aa&bg_color=0d1117)](https://github.com/AkashPriyadarshii/My-Starred-Repos)
+[![rustygrep](https://img.shields.io/badge/rustygrep-grep%20for%20LLM%20agents-7c3aed?style=flat)](https://github.com/AkashPriyadarshii/rustygrep)
+[![kharcha](https://img.shields.io/badge/kharcha-UPI%20expense%20tracker-7c3aed?style=flat)](https://github.com/AkashPriyadarshii/kharcha)
+[![tdlib-android](https://img.shields.io/badge/tdlib--android-TDLib%20AARs%204%20ABIs-7c3aed?style=flat)](https://github.com/AkashPriyadarshii/tdlib-android)
+[![zcat](https://img.shields.io/badge/zcat-cat%20for%20AI%20agents-7c3aed?style=flat)](https://github.com/AkashPriyadarshii/zcat)
+[![repomap](https://img.shields.io/badge/repomap-repo%20maps%20for%20AI-7c3aed?style=flat)](https://github.com/AkashPriyadarshii/repomap)
+[![My-Starred-Repos](https://img.shields.io/badge/My--Starred--Repos-800%2B%20curated%20stars-7c3aed?style=flat)](https://github.com/AkashPriyadarshii/My-Starred-Repos)
 
 </div>
 
@@ -40,8 +40,6 @@
 ## Stats
 
 <div align="center">
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AkashPriyadarshii&layout=compact&theme=transparent&hide_border=true&title_color=7c3aed&text_color=8888aa&bg_color=0d1117)
 
 ![Streak](https://streak-stats.demolab.com?user=AkashPriyadarshii&theme=transparent&hide_border=true&ring=7c3aed&fire=a855f7&currStreakLabel=f0f0f5&sideLabels=8888aa&dates=8888aa)
 
