@@ -62,6 +62,7 @@
 - 🔗 **Portfolio** — [akashpriyadarshi.vercel.app](https://akashpriyadarshi.vercel.app)
 - 🐦 **X** — [@Akash__ydv001](https://x.com/Akash__ydv001)
 - 🧵 **Threads** — [@free_dev2026](https://www.threads.com/@free_dev2026)
+- 📸 **Instagram** — [@akash.priyadarshii](https://www.instagram.com/akash.priyadarshii/)
 
 ---
 
