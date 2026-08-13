@@ -41,7 +41,7 @@
 
 <div align="center">
 
-![Streak](https://streak-stats.demolab.com?user=AkashPriyadarshii&theme=transparent&hide_border=true&ring=7c3aed&fire=a855f7&currStreakLabel=f0f0f5&sideLabels=8888aa&dates=8888aa)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AkashPriyadarshii&theme=github-dark&hide_border=true&bg_color=0d1117)](https://github.com/AkashPriyadarshii)
 
 </div>
 
