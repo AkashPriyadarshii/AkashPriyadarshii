@@ -29,10 +29,4 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-      - name: Commit if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add metrics.svg
-          git diff --staged --quiet || git commit -m "[auto] refresh metrics.svg"
-          git push
+      # metrics commits metrics.svg to main automatically via its own token
