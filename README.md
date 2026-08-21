@@ -45,11 +45,7 @@ Building **AkashBoard** — a 100% FOSS, fully local Android keyboard that learn
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.vercel.app?user=AkashPriyadarshii&hide_border=true&background_radius=8&locale=en&bg_color=0d1117&stroke=00000000&ring=a855f7&fire=a855f7&currStreakNum=f0f0f5&currStreakLabel=c4b5fd&sideNums=e9e9f0&sideLabels=a3a3b8&dates=8888aa" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.vercel.app?user=AkashPriyadarshii&hide_border=true&background_radius=8&locale=en&bg_color=ffffff&stroke=00000000&ring=7c3aed&fire=7c3aed&currStreakNum=1f2328&currStreakLabel=6d28d9&sideNums=24292f&sideLabels=57606a&dates=8b949e" />
-  <img alt="Streak stats" src="https://streak-stats.vercel.app?user=AkashPriyadarshii&hide_border=true&background_radius=8&locale=en&bg_color=0d1117&stroke=00000000&ring=a855f7&fire=a855f7&currStreakNum=f0f0f5&currStreakLabel=c4b5fd&sideNums=e9e9f0&sideLabels=a3a3b8&dates=8888aa" />
-</picture>
+<img alt="Streak stats" src="https://streak-stats.vercel.app?user=AkashPriyadarshii&hide_border=true&background_radius=8&locale=en&bg_color=00000000&stroke=7c3aed22&ring=a855f7&fire=a855f7&currStreakNum=a78bfa&currStreakLabel=73738a&sideNums=8b8b9e&sideLabels=73738a&dates=8888aa" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AkashPriyadarshii&hide_border=true&bg_color=0d1117&color=8888aa&line=a855f7&point=c4b5fd&area=true&area_color=2d1b4e" />
