@@ -45,7 +45,11 @@ Building **AkashBoard** — a 100% FOSS, fully local Android keyboard that learn
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AkashPriyadarshii&theme=github-dark&hide_border=true&bg_color=0d1117)](https://github.com/AkashPriyadarshii)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AkashPriyadarshii&hide_border=true&bg_color=0d1117&color=8888aa&line=a855f7&point=c4b5fd&area=true&area_color=2d1b4e" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AkashPriyadarshii&hide_border=true&bg_color=ffffff&color=6b6b76&line=7c3aed&point=8b5cf6&area=true&area_color=ece6f7" />
+  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AkashPriyadarshii&hide_border=true&bg_color=0d1117&color=8888aa&line=a855f7&point=c4b5fd&area=true&area_color=2d1b4e" />
+</picture>
 
 </div>
 
