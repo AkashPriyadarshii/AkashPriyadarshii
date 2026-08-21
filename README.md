@@ -37,9 +37,11 @@
 | **repomap** | Token-budgeted repo maps for AI agents, stdlib-only Go |
 | **My-Starred-Repos** | Self-updating dashboard of 905 curated starred repos, refreshed daily |
 
+Also shipped: [code2paper](https://github.com/AkashPriyadarshii/code2paper) (codebase → academic paper) · [sevolve](https://github.com/AkashPriyadarshii/sevolve) (self-evolving agent harness) · [ccsync](https://github.com/AkashPriyadarshii/ccsync) (Claude Code fleet sync) · [neet-cbt](https://github.com/AkashPriyadarshii/neet-cbt) (offline NTA exam simulator)
+
 ## Now
 
-Building **AkashBoard** — a 100% FOSS, fully local Android keyboard that learns how *you* type: your timing, your context, your patterns. No cloud, no accounts, no data collection.
+Building **[AkashBoard](https://github.com/AkashPriyadarshii/AkashBoard)** — a 100% FOSS, fully local Android keyboard that learns how *you* type: your timing, your context, your patterns. No cloud, no accounts, no data collection.
 
 ## Stats
 
