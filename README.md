@@ -9,7 +9,7 @@
 ╚═══════════════════════════════════════════════╝
 ```
 
-**Self-taught developer & AI-augmented engineer.** Builds complete systems alone — agents, apps, tools — using AI as a force multiplier. Started coding 2025. Ships everything.
+**Self-taught developer & AI-augmented engineer.** Builds complete systems alone — agents, apps, tools — using AI as a force multiplier. Started coding in 2025; 16 public repos across Rust, Zig, Kotlin, and Dart — every one shipped, none abandoned.
 
 </div>
 
@@ -35,13 +35,15 @@
 | **tdlib-android** | Precompiled TDLib for all 4 Android ABIs, built by CI, shipped as AARs |
 | **zcat** | Drop-in `cat` replacement in Zig with JSON output for AI agents |
 | **repomap** | Token-budgeted repo maps for AI agents, stdlib-only Go |
-| **My-Starred-Repos** | Self-updating dashboard of 800+ curated starred repos, refreshed daily |
+| **My-Starred-Repos** | Self-updating dashboard of 905 curated starred repos, refreshed daily |
+
+## Now
+
+Building **AkashBoard** — a 100% FOSS, fully local Android keyboard that learns how *you* type: your timing, your context, your patterns. No cloud, no accounts, no data collection.
 
 ## Stats
 
 <div align="center">
-
-![Streak](https://streak-stats.vercel.app?user=AkashPriyadarshii&theme=transparent&hide_border=true&ring=7c3aed&fire=a855f7&currStreakLabel=f0f0f5&sideLabels=8888aa&dates=8888aa)
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AkashPriyadarshii&theme=github-dark&hide_border=true&bg_color=0d1117)](https://github.com/AkashPriyadarshii)
 
