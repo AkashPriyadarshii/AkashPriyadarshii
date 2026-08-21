@@ -45,6 +45,8 @@ Building **AkashBoard** — a 100% FOSS, fully local Android keyboard that learn
 
 <div align="center">
 
+<img alt="Live stats" src="https://raw.githubusercontent.com/AkashPriyadarshii/AkashPriyadarshii/main/stats.svg" />
+
 <img alt="Streak stats" src="https://streak-stats.vercel.app?user=AkashPriyadarshii&hide_border=true&background_radius=8&locale=en&bg_color=00000000&stroke=7c3aed22&ring=a855f7&fire=a855f7&currStreakNum=a78bfa&currStreakLabel=73738a&sideNums=8b8b9e&sideLabels=73738a&dates=8888aa" />
 
 <picture>
