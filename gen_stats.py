@@ -1,6 +1,7 @@
 """Generates stats.svg from live GitHub API data — self-computed, no widget farm."""
 import json
 import os
+import time
 import urllib.request
 
 USER = "AkashPriyadarshii"
@@ -8,10 +9,17 @@ HDRS = {"Accept": "application/vnd.github+json", "User-Agent": USER}
 if os.environ.get("GITHUB_TOKEN"):
     HDRS["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
 
-def get(url):
-    req = urllib.request.Request(url, headers=HDRS)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+def get(url, tries=3):
+    last = None
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=HDRS)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.load(r)
+        except Exception as e:  # transient API/network blips shouldn't kill the daily run
+            last = e
+            time.sleep(5 * (i + 1))
+    raise last
 
 def paged(url):
     out, page = [], 1
@@ -58,8 +66,8 @@ svg = (
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">\n'
     f'{cells}</svg>\n'
 )
+assert stars >= 0 and len(repos) > 0, "implausible data"  # validate BEFORE writing the file
 with open("stats.svg", "w") as f:
     f.write(svg)
 
 print(f"stars={stars} repos={len(repos)} followers={profile['followers']} downloads={downloads}")
-assert stars >= 0 and len(repos) > 0, "implausible data"
