@@ -19,8 +19,8 @@ jobs:
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34 (pinned; @latest = supply-chain risk)
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: AkashPriyadarshii
