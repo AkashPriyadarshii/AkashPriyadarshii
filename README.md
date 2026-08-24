@@ -35,7 +35,7 @@
 | **tdlib-android** | Precompiled TDLib for all 4 Android ABIs, built by CI, shipped as AARs |
 | **zcat** | Drop-in `cat` replacement in Zig with JSON output for AI agents |
 | **repomap** | Token-budgeted repo maps for AI agents, stdlib-only Go |
-| **My-Starred-Repos** | Self-updating dashboard of 923 curated starred repos, refreshed daily |
+| **My-Starred-Repos** | Self-updating dashboard of 936 curated starred repos, refreshed daily |
 
 Also shipped: [code2paper](https://github.com/AkashPriyadarshii/code2paper) (codebase → academic paper) · [sevolve](https://github.com/AkashPriyadarshii/sevolve) (self-evolving agent harness) · [ccsync](https://github.com/AkashPriyadarshii/ccsync) (Claude Code fleet sync) · [neet-cbt](https://github.com/AkashPriyadarshii/neet-cbt) (offline NTA exam simulator)
 
