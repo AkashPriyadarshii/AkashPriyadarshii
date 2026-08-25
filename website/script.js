@@ -1,90 +1,21 @@
-class TextScramble {
-    constructor(el) {
-        this.el = el;
-        // Hacker/System characters
-        this.chars = '!<>-_\\/[]{}—=+*^?#________';
-        this.update = this.update.bind(this);
-    }
-
-    setText(newText) {
-        const oldText = this.el.innerText;
-        const length = Math.max(oldText.length, newText.length);
-        const promise = new Promise((resolve) => this.resolve = resolve);
-        
-        this.queue = [];
-        for (let i = 0; i < length; i++) {
-            const from = oldText[i] || '';
-            const to = newText[i] || '';
-            const start = Math.floor(Math.random() * 40);
-            const end = start + Math.floor(Math.random() * 40);
-            this.queue.push({ from, to, start, end });
-        }
-        
-        cancelAnimationFrame(this.frameRequest);
-        this.frame = 0;
-        this.update();
-        return promise;
-    }
-
-    update() {
-        let output = '';
-        let complete = 0;
-        
-        for (let i = 0, n = this.queue.length; i < n; i++) {
-            let { from, to, start, end, char } = this.queue[i];
-            
-            if (this.frame >= end) {
-                complete++;
-                output += to;
-            } else if (this.frame >= start) {
-                if (!char || Math.random() < 0.28) {
-                    char = this.randomChar();
-                    this.queue[i].char = char;
-                }
-                output += `<span class="dud">${char}</span>`;
-            } else {
-                output += from;
-            }
-        }
-        
-        this.el.innerHTML = output;
-        
-        if (complete === this.queue.length) {
-            this.resolve();
-        } else {
-            this.frameRequest = requestAnimationFrame(this.update);
-            this.frame++;
-        }
-    }
-
-    randomChar() {
-        return this.chars[Math.floor(Math.random() * this.chars.length)];
-    }
-}
-
 document.addEventListener('DOMContentLoaded', () => {
-    // Execute Matrix Scramble Effect on elements with data-scramble
-    const scrambleElements = document.querySelectorAll('[data-scramble]');
+    // Elegant Fade-up observer (Replacing the harsh terminal scramble)
+    const fadeElements = document.querySelectorAll('.fade-up');
     
     const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
+        entries.forEach((entry, index) => {
             if (entry.isIntersecting) {
-                const el = entry.target;
-                const fx = new TextScramble(el);
-                const text = el.getAttribute('data-scramble');
-                
-                // Slight delay for organic feel
+                // Add a staggered delay based on order
                 setTimeout(() => {
-                    fx.setText(text);
-                }, 200);
-                
-                observer.unobserve(el);
+                    entry.target.classList.add('visible');
+                }, index * 100);
+                observer.unobserve(entry.target);
             }
         });
     }, {
-        rootMargin: '0px',
+        rootMargin: '0px 0px -50px 0px',
         threshold: 0.1
     });
 
-    scrambleElements.forEach(el => observer.observe(el));
+    fadeElements.forEach(el => observer.observe(el));
 });

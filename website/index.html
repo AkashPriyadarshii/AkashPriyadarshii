@@ -26,7 +26,7 @@
     <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/101859341?v=4">
     <meta name="twitter:creator" content="@Akash__ydv001">
 
-    <!-- JSON-LD Schema (Google Knowledge Graph) -->
+    <!-- JSON-LD Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -50,118 +50,106 @@
         "https://www.instagram.com/akash.priyadarshii/",
         "https://www.threads.com/@free_dev2026"
       ],
-      "knowsAbout": ["Rust", "Zig", "Go", "Kotlin", "Android Development", "AI Agents", "Systems Programming", "Model Context Protocol"]
+      "knowsAbout": ["Rust", "Zig", "Go", "Kotlin", "Android Development", "AI Agents", "Systems Programming"]
     }
     </script>
     
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
-    
-    <!-- CSS & JS -->
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <!-- CRT Noise Overlay -->
-    <div class="scanline"></div>
+    <div class="hero-glow"></div>
     
     <main class="container">
-        <!-- ASCII Hero Section -->
-        <header class="hero">
-            <pre class="ascii-art" id="ascii-hero">
-╔═══════════════════════════════════════════════╗
-║   AKASH PRIYADARSHI                           ║
-║   Solo builder · Patna, Bihar, India          ║
-║   Self-taught · AI-augmented engineer         ║
-║   AI agents · Android internals · systems     ║
-╚═══════════════════════════════════════════════╝</pre>
+        <!-- Hero Section -->
+        <header class="hero fade-up">
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                Solo Builder · Patna, India
+            </div>
             
-            <p class="bio" data-scramble="Self-taught developer & AI-augmented engineer. Builds complete systems alone — agents, apps, tools — using AI as a force multiplier. 16 public repos across Rust, Zig, Kotlin, and Dart. Every one shipped, none abandoned.">
-                _
-            </p>
-
-            <nav class="links">
-                <a href="https://github.com/AkashPriyadarshii" target="_blank" rel="noopener noreferrer">[ GitHub ]</a>
-                <a href="https://x.com/Akash__ydv001" target="_blank" rel="noopener noreferrer">[ X / Twitter ]</a>
-                <a href="https://akashpriyadarshi.vercel.app" target="_blank" rel="noopener noreferrer">[ Portfolio ]</a>
-                <a href="https://akashpriyadarshii.github.io/Resume/" target="_blank" rel="noopener noreferrer">[ Resume ]</a>
-            </nav>
+            <h1 class="title">Akash Priyadarshi</h1>
+            <p class="subtitle">Self-taught developer & AI-augmented engineer.<br>Building systems, agents, and Android internals.</p>
+            
+            <div class="hero-links">
+                <a href="https://github.com/AkashPriyadarshii" target="_blank" rel="noopener noreferrer" class="btn btn-primary">GitHub Profile</a>
+                <a href="https://x.com/Akash__ydv001" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">X / Twitter</a>
+                <a href="https://akashpriyadarshii.github.io/Resume/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Resume</a>
+            </div>
         </header>
 
         <!-- Projects -->
-        <section class="section">
-            <h2 class="section-title" data-scramble="## Shipped Products">## Shipped Products</h2>
+        <section class="section fade-up">
+            <h2 class="section-title">Shipped Products</h2>
             
             <div class="project-list">
-                <article class="project-item">
+                <a href="https://github.com/AkashPriyadarshii/AkashBoard" target="_blank" rel="noopener noreferrer" class="project-card">
                     <div class="project-header">
-                        <a href="https://github.com/AkashPriyadarshii/AkashBoard" class="project-name" target="_blank">AkashBoard</a>
+                        <span class="project-name">AkashBoard</span>
                         <span class="project-badge">Android / Kotlin</span>
                     </div>
                     <p class="project-desc">100% FOSS, fully local Android keyboard that learns how you type. No cloud, no accounts, zero data collection.</p>
-                </article>
+                </a>
 
-                <article class="project-item">
+                <a href="https://github.com/AkashPriyadarshii/rustygrep" target="_blank" rel="noopener noreferrer" class="project-card">
                     <div class="project-header">
-                        <a href="https://github.com/AkashPriyadarshii/rustygrep" class="project-name" target="_blank">rustygrep</a>
+                        <span class="project-name">rustygrep</span>
                         <span class="project-badge">Rust / AI Agents</span>
                     </div>
                     <p class="project-desc">Token-efficient, high-performance grep designed specifically for LLM coding agents, featuring a built-in stdio MCP server.</p>
-                </article>
+                </a>
 
-                <article class="project-item">
+                <a href="https://github.com/AkashPriyadarshii/kharcha" target="_blank" rel="noopener noreferrer" class="project-card">
                     <div class="project-header">
-                        <a href="https://github.com/AkashPriyadarshii/kharcha" class="project-name" target="_blank">kharcha</a>
+                        <span class="project-name">kharcha</span>
                         <span class="project-badge">Flutter / Dart</span>
                     </div>
                     <p class="project-desc">India-first UPI expense tracker for Android. Offline-first architecture that auto-captures GPay, PhonePe, and Paytm transactions.</p>
-                </article>
+                </a>
 
-                <article class="project-item">
+                <a href="https://github.com/AkashPriyadarshii/tdlib-android" target="_blank" rel="noopener noreferrer" class="project-card">
                     <div class="project-header">
-                        <a href="https://github.com/AkashPriyadarshii/tdlib-android" class="project-name" target="_blank">tdlib-android</a>
+                        <span class="project-name">tdlib-android</span>
                         <span class="project-badge">CI/CD / C++</span>
                     </div>
                     <p class="project-desc">Precompiled Telegram Database Library (TDLib) for all 4 Android ABIs, built via automated CI and shipped seamlessly as AARs.</p>
-                </article>
+                </a>
                 
-                <article class="project-item">
+                <a href="https://github.com/AkashPriyadarshii/repomap" target="_blank" rel="noopener noreferrer" class="project-card">
                     <div class="project-header">
-                        <a href="https://github.com/AkashPriyadarshii/repomap" class="project-name" target="_blank">repomap</a>
+                        <span class="project-name">repomap</span>
                         <span class="project-badge">Go / Systems</span>
                     </div>
                     <p class="project-desc">Token-budgeted repo maps for AI agents. Built strictly using the Go standard library.</p>
-                </article>
+                </a>
             </div>
         </section>
 
         <!-- Stack -->
-        <section class="section">
-            <h2 class="section-title" data-scramble="## Technical Stack">## Technical Stack</h2>
+        <section class="section fade-up">
+            <h2 class="section-title">Technical Expertise</h2>
             <div class="stack-grid">
-                <div class="stack-category">
-                    <span class="stack-label">LANGUAGES</span>
-                    <span class="stack-tech">Rust · Zig · Go · Kotlin · Dart · TypeScript · Python</span>
+                <div class="stack-card">
+                    <span class="stack-label">Languages</span>
+                    <span class="stack-tech">Rust, Zig, Go, Kotlin, Dart, TypeScript, Python</span>
                 </div>
-                <div class="stack-category">
-                    <span class="stack-label">SYSTEMS</span>
-                    <span class="stack-tech">CLI tooling · LLM-agent output · MCP servers</span>
+                <div class="stack-card">
+                    <span class="stack-label">Systems & AI</span>
+                    <span class="stack-tech">CLI utilities, Model Context Protocol (MCP), Agent Orchestration</span>
                 </div>
-                <div class="stack-category">
-                    <span class="stack-label">ANDROID</span>
-                    <span class="stack-tech">Kotlin · Jetpack Compose · Flutter · TDLib</span>
+                <div class="stack-card">
+                    <span class="stack-label">Mobile (Android)</span>
+                    <span class="stack-tech">Kotlin, Jetpack Compose, Flutter, TDLib, JNI</span>
                 </div>
-                <div class="stack-category">
-                    <span class="stack-label">DATA</span>
-                    <span class="stack-tech">PostgreSQL · Supabase · SQLite (Drift)</span>
+                <div class="stack-card">
+                    <span class="stack-label">Data Layer</span>
+                    <span class="stack-tech">PostgreSQL, Supabase, SQLite (Drift)</span>
                 </div>
             </div>
         </section>
 
-        <footer class="footer">
-            <p data-scramble="> EOF. System execution complete.">> EOF. System execution complete.</p>
+        <footer class="footer fade-up">
+            <p>Akash Priyadarshi © 2026. All systems operational.</p>
         </footer>
     </main>
 </body>
