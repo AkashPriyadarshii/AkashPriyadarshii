@@ -33,4 +33,5 @@ jobs:
           git add stats.svg
           git diff --staged --quiet && echo "no changes" && exit 0
           git commit -m "[auto] refresh stats.svg"
-          git pull --rebase origin main && git push
+          git pull --rebase -X theirs origin main || true
+          git push
