@@ -1,0 +1,26 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "AkashPriyadarshii MCP Ecosystem",
+  "description": "Model Context Protocol tools and servers published by Akash Priyadarshi",
+  "version": "1.0.0",
+  "author": {
+    "name": "Akash Priyadarshi",
+    "url": "https://github.com/AkashPriyadarshii"
+  },
+  "servers": [
+    {
+      "name": "rustygrep",
+      "description": "Token-efficient, high-performance grep designed specifically for LLM coding agents with stdio MCP interface.",
+      "transport": "stdio",
+      "command": "rustygrep",
+      "args": ["--mcp"],
+      "repository": "https://github.com/AkashPriyadarshii/rustygrep",
+      "tools": [
+        {
+          "name": "grep_search",
+          "description": "Search codebases with token-budget compression for LLM context windows"
+        }
+      ]
+    }
+  ]
+}
