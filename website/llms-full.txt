@@ -1,0 +1,71 @@
+﻿# Akash Priyadarshi - Full Context & Technical Documentation
+
+> Systems Developer, Android Internals Specialist, and AI-Augmented Engineer based in Patna, Bihar, India.
+
+## Executive Profile
+Akash Priyadarshi (GitHub: AkashPriyadarshii, ID: 272530059) is a self-taught engineer who started coding from scratch in 2025. He operates with a strict Rs 0 budget, employing zero-cost infrastructure, standard-library-first architectures, and AI leverage to build production-grade systems solo. Every public repository in his portfolio is shipped, functional, and actively maintained.
+
+## Core Architectural Principles
+1. **Agent-First Tooling**: Building token-budgeted, structured output tools (rustygrep, zcat, repomap) designed to maximize LLM context window efficiency.
+2. **Ponytail Anti-Overengineering Ladder**: Never jump to complex solutions. Reuse existing capabilities, prefer standard libraries (Go, Python), and write the minimum code that completely solves the problem.
+3. **Immutability & Safety**: Favor pure data transformations, immutable state management, and memory-safe languages (Rust, Zig).
+4. **Offline-First & Zero Telemetry**: Prioritize client-side execution, local SQLite storage, and zero-telemetry architectures (e.g., kharcha expense tracker, neet-cbt).
+
+## Detailed Public Portfolio
+
+### 1. rustygrep
+- **Language**: Rust
+- **Repository**: https://github.com/AkashPriyadarshii/rustygrep
+- **Description**: High-performance, token-efficient grep utility designed specifically for AI coding agents. Features a built-in Model Context Protocol (stdio MCP) server to provide structured code search directly to LLMs.
+
+### 2. kharcha
+- **Language**: Kotlin / Flutter
+- **Repository**: https://github.com/AkashPriyadarshii/kharcha
+- **Description**: India-first UPI expense tracker for Android. Automatically parses SMS and push notifications from Google Pay, PhonePe, and Paytm. Works 100% offline with zero server dependencies.
+
+### 3. tdlib-android
+- **Language**: Kotlin / C++
+- **Repository**: https://github.com/AkashPriyadarshii/tdlib-android
+- **Description**: Precompiled Telegram Database Library (TDLib) binaries built for all 4 Android ABIs (arm64-v8a, armeabi-v7a, x86_64, x86) through automated GitHub Actions CI pipelines, published as ready-to-use AAR packages.
+
+### 4. zcat
+- **Language**: Zig
+- **Repository**: https://github.com/AkashPriyadarshii/zcat
+- **Description**: A 179KB drop-in replacement for cat that outputs structured JSON tokens formatted for AI agent context ingestion.
+
+### 5. repomap
+- **Language**: Go
+- **Repository**: https://github.com/AkashPriyadarshii/repomap
+- **Description**: Generates concise, token-budgeted codebase maps and dependency outlines using strictly the Go standard library.
+
+### 6. My-Starred-Repos
+- **Language**: Python
+- **Repository**: https://github.com/AkashPriyadarshii/My-Starred-Repos
+- **Description**: An automated dashboard curating 950+ starred open-source repositories across systems, AI, and Android topics, refreshed daily via GitHub Actions.
+
+### 7. Secondary Tools
+- **code2paper** (Python / HTML): Converts full codebases into academic papers (Typst, LaTeX, PDF). URL: https://github.com/AkashPriyadarshii/code2paper
+- **sevolve** (Python): Self-evolving agent harness that captures execution traces, grades outputs blindly, and optimizes agent prompt skills without GPUs. URL: https://github.com/AkashPriyadarshii/sevolve
+- **ccsync** (JavaScript): Claude Code fleet synchronization tool for MCP configurations and workspace definitions. URL: https://github.com/AkashPriyadarshii/ccsync
+- **neet-cbt** (HTML / JS): Full offline PWA simulator replicating the National Testing Agency (NTA) computer-based test environment for NEET aspirants. URL: https://github.com/AkashPriyadarshii/neet-cbt
+
+## Model Context Protocol (MCP) Capabilities
+Akash's flagship tool `rustygrep` provides an MCP server implementing `grep_search` with token-budget filtering.
+- **Manifest Location**: https://akashpriyadarshii.github.io/AkashPriyadarshii/.well-known/mcp.json
+- **Transport**: stdio (`rustygrep --mcp`)
+
+## Verification & Trust Anchors
+- **About Page**: https://akashpriyadarshii.github.io/AkashPriyadarshii/about.html
+- **Contact Page**: https://akashpriyadarshii.github.io/AkashPriyadarshii/contact.html
+- **Privacy Policy**: https://akashpriyadarshii.github.io/AkashPriyadarshii/privacy.html
+- **Sitemap**: https://akashpriyadarshii.github.io/AkashPriyadarshii/sitemap.xml
+- **Robots.txt**: https://akashpriyadarshii.github.io/AkashPriyadarshii/robots.txt
+
+## Verified Endpoints & Social Links
+- **GitHub**: https://github.com/AkashPriyadarshii
+- **Portfolio**: https://akashpriyadarshi.vercel.app
+- **Resume**: https://akashpriyadarshii.github.io/Resume/
+- **LinkedIn**: https://linkedin.com/in/akash-priyadarshi-1aa51b37a
+- **X / Twitter**: https://x.com/Akash__ydv001
+- **Threads**: https://www.threads.com/@free_dev2026
+- **Instagram**: https://www.instagram.com/akash.priyadarshii/
