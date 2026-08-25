@@ -1,11 +1,23 @@
-/* GitHub README Inspired Brutalism */
+/* LINEAR x RAYCAST AESTHETIC - THE PEAK DEVELOPER SaaS VIBE */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
 :root {
-    --bg: #0d1117;          /* GitHub Dark Background */
-    --border: #30363d;      /* GitHub Dark Border */
-    --text: #c9d1d9;        /* GitHub Dark Text */
-    --text-muted: #8b949e;  /* GitHub Dark Muted */
-    --accent: #7c3aed;      /* Exact purple from Akash's shields */
-    --accent-hover: #a855f7;
+    /* Linear Canvas & Surfaces */
+    --canvas: #010102;
+    --surface: #0f1011;
+    --surface-hover: #141516;
+    /* Raycast Hairlines */
+    --hairline: #242728;
+    --hairline-strong: #34343a;
+    /* Typography */
+    --ink: #f7f8f8;
+    --ink-muted: #8a8f98;
+    /* Accents (Linear Lavender) */
+    --accent: #5e6ad2;
+    --accent-glow: rgba(94, 106, 210, 0.15);
+    
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
 }
 
@@ -16,12 +28,12 @@
 }
 
 body {
-    background-color: var(--bg);
-    color: var(--text);
-    font-family: var(--font-mono);
+    background-color: var(--canvas);
+    color: var(--ink);
+    font-family: var(--font-sans);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 ::selection {
@@ -29,167 +41,233 @@ body {
     color: #fff;
 }
 
-/* CRT Scanline Overlay */
-.scanline {
-    position: fixed;
-    top: 0; left: 0; width: 100vw; height: 100vh;
-    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0.15));
-    background-size: 100% 4px;
+/* Atmospheric Glow */
+.hero-glow {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, var(--accent-glow) 0%, rgba(1,1,2,0) 70%);
     pointer-events: none;
-    z-index: 9999;
-    opacity: 0.4;
+    z-index: -1;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 4rem 2rem;
+    padding: 6rem 2rem;
+    position: relative;
+    z-index: 1;
 }
 
-/* Header & ASCII Art */
+/* Hero Section */
 .hero {
-    margin-bottom: 4rem;
-}
-
-.ascii-art {
-    color: var(--accent);
-    font-weight: 800;
-    font-size: clamp(10px, 2.5vw, 14px); /* Scales down on mobile to prevent overflow */
-    line-height: 1.2;
-    margin-bottom: 2.5rem;
-    overflow-x: hidden;
-    white-space: pre-wrap;
-    text-shadow: 0 0 10px rgba(124, 58, 237, 0.3); /* Subtle terminal glow */
-}
-
-.bio {
-    font-size: 1.1rem;
-    color: var(--text);
-    margin-bottom: 2rem;
-    min-height: 80px; /* Prevents layout jump during scramble */
-}
-
-/* Terminal Links */
-.links {
+    text-align: center;
+    margin-bottom: 5rem;
     display: flex;
-    gap: 1.5rem;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
-.links a {
-    color: var(--accent);
-    text-decoration: none;
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid var(--hairline);
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--ink-muted);
+    background: var(--surface);
+    margin-bottom: 2rem;
+}
+
+.status-dot {
+    width: 6px;
+    height: 6px;
+    background-color: var(--accent);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--accent);
+}
+
+.title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 700;
-    transition: color 0.2s;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    color: var(--ink);
 }
 
-.links a:hover {
-    color: var(--accent-hover);
-    text-shadow: 0 0 8px rgba(168, 85, 247, 0.4);
+.subtitle {
+    font-size: 1.125rem;
+    color: var(--ink-muted);
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+}
+
+/* Buttons */
+.hero-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 0.6rem 1.25rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--ink);
+    color: var(--canvas);
+}
+
+.btn-primary:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background-color: var(--surface);
+    color: var(--ink);
+    border: 1px solid var(--hairline);
+}
+
+.btn-secondary:hover {
+    background-color: var(--surface-hover);
+    border-color: var(--hairline-strong);
 }
 
 /* Sections */
-.section-title {
-    color: var(--text);
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 4rem 0 2.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px dashed var(--border);
+.section {
+    margin-bottom: 5rem;
 }
 
-/* Projects */
+.section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.section-title::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 2px;
+    background-color: var(--accent);
+}
+
+/* Project Cards */
 .project-list {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
-.project-item {
-    border-left: 2px solid var(--border);
-    padding-left: 1.5rem;
-    transition: border-color 0.3s ease;
+.project-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s ease;
 }
 
-.project-item:hover {
-    border-color: var(--accent);
+.project-card:hover {
+    border-color: var(--hairline-strong);
+    background: var(--surface-hover);
 }
 
 .project-header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
     margin-bottom: 0.5rem;
-    flex-wrap: wrap;
 }
 
 .project-name {
-    color: var(--accent);
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 1.25rem;
-}
-
-.project-name:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 1.1rem;
 }
 
 .project-badge {
-    font-size: 0.75rem;
-    border: 1px solid var(--border);
-    padding: 0.1rem 0.6rem;
-    border-radius: 2px; /* Brutalist square edges */
-    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--ink-muted);
+    background: var(--canvas);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--hairline);
 }
 
 .project-desc {
-    color: var(--text-muted);
+    color: var(--ink-muted);
     font-size: 0.95rem;
+    line-height: 1.5;
 }
 
 /* Stack Grid */
 .stack-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.stack-category {
     display: grid;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
-    padding: 0.75rem;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid var(--border);
 }
 
-@media (max-width: 600px) {
-    .stack-category {
-        grid-template-columns: 1fr;
-        gap: 0.25rem;
-    }
+.stack-card {
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    padding: 1.25rem;
+    border-radius: 12px;
 }
 
 .stack-label {
-    color: var(--text);
-    font-weight: 700;
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .stack-tech {
-    color: var(--text-muted);
+    color: var(--ink-muted);
+    font-size: 0.9rem;
 }
 
-/* Scramble Effect Classes */
-.dud {
-    color: var(--text-muted);
+/* Reveal Animation */
+.fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Footer */
+.fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .footer {
-    margin-top: 5rem;
+    text-align: center;
+    margin-top: 6rem;
     padding-top: 2rem;
-    border-top: 1px dashed var(--border);
-    color: var(--text-muted);
-    font-size: 0.85rem;
+    border-top: 1px solid var(--hairline);
+    color: var(--ink-muted);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
 }
