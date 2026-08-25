@@ -33,12 +33,12 @@ def paged(url):
 profile = get(f"https://api.github.com/users/{USER}")
 repos = paged(f"https://api.github.com/users/{USER}/repos")
 stars = sum(r["stargazers_count"] for r in repos)
-downloads = sum(
-    a["download_count"]
-    for r in repos
-    for rel in paged(f"https://api.github.com/repos/{r['full_name']}/releases")
-    for a in rel.get("assets", [])
-)
+downloads = 0
+for r in repos:
+    time.sleep(0.2)  # throttle to prevent secondary rate limiting
+    for rel in paged(f"https://api.github.com/repos/{r['full_name']}/releases"):
+        for a in rel.get("assets", []):
+            downloads += a.get("download_count", 0)
 
 def fmt(n):
     return f"{n:,}"
@@ -53,12 +53,13 @@ BLOCKS = [
 # transparent bg, mid-tone palette readable on light + dark (same scheme as streak card)
 X, W, H = 40, 720, 140
 cells = ""
+block_width = (W - 2 * X) // len(BLOCKS)
 for i, (label, value) in enumerate(BLOCKS):
-    cx = X + i * ((W - 2 * X) // len(BLOCKS))
+    cx = X + i * block_width + (block_width // 2)
     cells += (
-        f'<text x="{cx}" y="78" font-family="Segoe UI,sans-serif" font-size="30" '
+        f'<text x="{cx}" y="78" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="30" '
         f'font-weight="700" fill="#a78bfa">{value}</text>\n'
-        f'<text x="{cx}" y="102" font-family="Segoe UI,sans-serif" font-size="11" '
+        f'<text x="{cx}" y="102" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="11" '
         f'letter-spacing="1.5" fill="#73738a">{label}</text>\n'
     )
 

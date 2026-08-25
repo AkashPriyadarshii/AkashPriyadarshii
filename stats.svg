@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="140" viewBox="0 0 720 140">
-<text x="40" y="78" font-family="Segoe UI,sans-serif" font-size="30" font-weight="700" fill="#a78bfa">5</text>
-<text x="40" y="102" font-family="Segoe UI,sans-serif" font-size="11" letter-spacing="1.5" fill="#73738a">STARS ACROSS REPOS</text>
-<text x="200" y="78" font-family="Segoe UI,sans-serif" font-size="30" font-weight="700" fill="#a78bfa">19</text>
-<text x="200" y="102" font-family="Segoe UI,sans-serif" font-size="11" letter-spacing="1.5" fill="#73738a">PUBLIC REPOS</text>
-<text x="360" y="78" font-family="Segoe UI,sans-serif" font-size="30" font-weight="700" fill="#a78bfa">6</text>
-<text x="360" y="102" font-family="Segoe UI,sans-serif" font-size="11" letter-spacing="1.5" fill="#73738a">FOLLOWERS</text>
-<text x="520" y="78" font-family="Segoe UI,sans-serif" font-size="30" font-weight="700" fill="#a78bfa">292</text>
-<text x="520" y="102" font-family="Segoe UI,sans-serif" font-size="11" letter-spacing="1.5" fill="#73738a">RELEASE DOWNLOADS</text>
+<text x="120" y="78" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="30" font-weight="700" fill="#a78bfa">6</text>
+<text x="120" y="102" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="11" letter-spacing="1.5" fill="#73738a">STARS ACROSS REPOS</text>
+<text x="280" y="78" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="30" font-weight="700" fill="#a78bfa">19</text>
+<text x="280" y="102" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="11" letter-spacing="1.5" fill="#73738a">PUBLIC REPOS</text>
+<text x="440" y="78" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="30" font-weight="700" fill="#a78bfa">6</text>
+<text x="440" y="102" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="11" letter-spacing="1.5" fill="#73738a">FOLLOWERS</text>
+<text x="600" y="78" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="30" font-weight="700" fill="#a78bfa">297</text>
+<text x="600" y="102" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="11" letter-spacing="1.5" fill="#73738a">RELEASE DOWNLOADS</text>
 </svg>
