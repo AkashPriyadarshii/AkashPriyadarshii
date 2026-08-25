@@ -1,21 +1,27 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Elegant Fade-up observer (Apple style ease-out)
-    const fadeElements = document.querySelectorAll('.fade-up');
-    
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry, index) => {
-            if (entry.isIntersecting) {
-                // Add a staggered delay based on order
-                setTimeout(() => {
-                    entry.target.classList.add('visible');
-                }, index * 120);
-                observer.unobserve(entry.target);
-            }
+    const links = document.querySelectorAll('.huge-link');
+    const panel = document.getElementById('desc-panel');
+    const descText = document.getElementById('desc-text');
+
+    // Advanced Hover Logic for the Project Monolith
+    links.forEach(link => {
+        link.addEventListener('mouseenter', () => {
+            const desc = link.getAttribute('data-desc');
+            descText.textContent = desc;
+            panel.classList.add('active');
         });
-    }, {
-        rootMargin: '0px 0px -50px 0px',
-        threshold: 0.1
+
+        link.addEventListener('mouseleave', () => {
+            panel.classList.remove('active');
+        });
     });
 
-    fadeElements.forEach(el => observer.observe(el));
+    // Pause Marquee on Hover
+    const marquee = document.querySelector('.marquee-track');
+    marquee.addEventListener('mouseenter', () => {
+        marquee.style.animationPlayState = 'paused';
+    });
+    marquee.addEventListener('mouseleave', () => {
+        marquee.style.animationPlayState = 'running';
+    });
 });
