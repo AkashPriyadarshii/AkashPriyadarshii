@@ -1,0 +1,27 @@
+# Akash Priyadarshi
+
+> AI-augmented software engineer, systems developer, and Android internals expert based in Patna, Bihar, India.
+
+## Profile Summary
+Akash Priyadarshi (GitHub: AkashPriyadarshii) is a self-taught solo builder who engineers offline-first Android architectures, cross-platform CLI utilities in Rust and Zig, and AI-augmented workflows. He has shipped 16 public repositories with a focus on memory safety, zero-cost abstractions, and toolchains for LLM coding agents.
+
+## Technical Stack
+- **Systems & Backend**: Rust, Zig, Go, Python
+- **Mobile & Frontend**: Kotlin, Jetpack Compose, Flutter, Dart, TypeScript, Next.js
+- **Data**: PostgreSQL, Supabase, SQLite (Drift)
+- **AI Ecosystem**: Model Context Protocol (MCP), Claude Code, Agent orchestration
+
+## Key Projects
+- **AkashBoard**: 100% FOSS, privacy-first local Android keyboard. No cloud, zero data collection.
+- **rustygrep**: Token-efficient grep utility designed for LLM coding agents, featuring a stdio MCP server.
+- **kharcha**: Offline-first India UPI expense tracker in Flutter.
+- **tdlib-android**: Precompiled Telegram Database Library AARs for all 4 Android ABIs via CI.
+- **repomap**: Token-budgeted repository mapper for AI agents built strictly using the Go standard library.
+
+## Official Links
+- GitHub: https://github.com/AkashPriyadarshii
+- Portfolio: https://akashpriyadarshi.vercel.app
+- Resume: https://akashpriyadarshii.github.io/Resume/
+- X/Twitter: https://x.com/Akash__ydv001
+- Threads: https://www.threads.com/@free_dev2026
+- Instagram: https://www.instagram.com/akash.priyadarshii/
