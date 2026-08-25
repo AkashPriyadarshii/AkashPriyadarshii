@@ -11,6 +11,8 @@
 
 **Self-taught developer & AI-augmented engineer.** Builds complete systems alone — agents, apps, tools — using AI as a force multiplier. Started coding in 2025; 16 public repos across Rust, Zig, Kotlin, and Dart — every one shipped, none abandoned.
 
+[![Profile Views](https://komarev.com/ghpvc/?username=AkashPriyadarshii&color=7c3aed&style=flat&label=profile%20views)](https://github.com/AkashPriyadarshii)
+
 </div>
 
 ---
