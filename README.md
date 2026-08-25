@@ -76,6 +76,7 @@ Building **[AkashBoard](https://github.com/AkashPriyadarshii/AkashBoard)** — a
 
 - 📄 **Resume** — [akashpriyadarshii.github.io/Resume](https://akashpriyadarshii.github.io/Resume/)
 - 🔗 **Portfolio** — [akashpriyadarshi.vercel.app](https://akashpriyadarshi.vercel.app)
+- 💼 **LinkedIn** — [akash-priyadarshi-1aa51b37a](https://linkedin.com/in/akash-priyadarshi-1aa51b37a)
 - 🐦 **X** — [@Akash__ydv001](https://x.com/Akash__ydv001)
 - 🧵 **Threads** — [@free_dev2026](https://www.threads.com/@free_dev2026)
 - 📸 **Instagram** — [@akash.priyadarshii](https://www.instagram.com/akash.priyadarshii/)
