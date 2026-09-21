@@ -43,7 +43,7 @@ Also shipped: [code2paper](https://github.com/AkashPriyadarshii/code2paper) (cod
 
 ## Now
 
-Building **[AkashBoard](https://github.com/AkashPriyadarshii/AkashBoard)** — a 100% FOSS, fully local Android keyboard that learns how *you* type: your timing, your context, your patterns. No cloud, no accounts, no data collection.
+IN LOOP
 
 ## Stats
 
