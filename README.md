@@ -17,6 +17,8 @@ Keywords: Akash Priyadarshi, AI agents, TypeSafe AI, Jev, Rust, Kotlin, Android,
 
 **Self-taught developer and AI-augmented engineer.** Builds complete systems alone using AI as a force multiplier. 47 public repos across Rust, Kotlin, Go, Zig, Python, and TypeScript; all shipped, none abandoned.
 
+[![Profile Views](https://komarev.com/ghpvc/?username=AkashPriyadarshii&color=7c3aed&style=flat-square&label=profile%20views)](https://github.com/AkashPriyadarshii)
+
 </div>
 
 ---
