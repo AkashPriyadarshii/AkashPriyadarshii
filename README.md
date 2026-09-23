@@ -89,4 +89,4 @@ IN LOOP
 
 *Built by Akash Priyadarshi for the TypeSafe AI System One ecosystem.*
 
-*Keywords: Akash Priyadarshi, TypeSafe AI, Jev, systems programming, solo builder, AI-augmented engineering.*
+*Keywords: Akash Priyadarshi, Akash,Akashpriyadarshi,aakash,patna,TypeSafe AI, Jev, systems programming, solo builder, AI-augmented engineering.*
