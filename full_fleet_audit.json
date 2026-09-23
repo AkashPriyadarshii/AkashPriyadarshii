@@ -1,0 +1,2754 @@
+[
+  {
+    "name": "personal-site",
+    "url": "https://akashpriyadarshi.vercel.app",
+    "domain_type": "portfolio / personal brand",
+    "vars": {
+      "font-geist-sans": "\"Geist\", \"Geist Fallback\"",
+      "font-geist-mono": "\"Geist Mono\", \"Geist Mono Fallback\"",
+      "tw-translate-x": "calc(var(--spacing) * -.5)",
+      "tw-translate-y": "calc(calc(1 / 2 * 100%) * -1)",
+      "tw-translate-z": "0",
+      "tw-space-y-reverse": "0",
+      "tw-border-style": "none",
+      "tw-gradient-position": "to bottom right in oklab",
+      "tw-gradient-from": "var(--color-blue-600)",
+      "tw-gradient-via": "#0000",
+      "tw-gradient-to": "var(--color-violet-600)",
+      "tw-gradient-stops": "var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))",
+      "tw-gradient-via-stops": "initial",
+      "tw-gradient-from-position": "0%",
+      "tw-gradient-via-position": "50%",
+      "tw-gradient-to-position": "100%",
+      "tw-leading": "var(--leading-relaxed)",
+      "tw-font-weight": "var(--font-weight-semibold)",
+      "tw-tracking": "var(--tracking-widest)",
+      "tw-shadow": "0 10px 15px -3px var(--tw-shadow-color,#0000001a), 0 4px 6px -4px var(--tw-shadow-color,#0000001a)",
+      "tw-shadow-color": "color-mix(in oklab, color-mix(in oklab, var(--primary) 10%, transparent) var(--tw-shadow-alpha), transparent)",
+      "tw-shadow-alpha": "100%",
+      "tw-inset-shadow": "0 0 #0000",
+      "tw-inset-shadow-color": "initial",
+      "tw-inset-shadow-alpha": "100%",
+      "tw-ring-color": "var(--primary)",
+      "tw-ring-shadow": "var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor)",
+      "tw-inset-ring-color": "initial",
+      "tw-inset-ring-shadow": "0 0 #0000",
+      "tw-ring-inset": "initial",
+      "tw-ring-offset-width": "0px",
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-offset-shadow": "0 0 #0000",
+      "tw-blur": "blur(var(--blur-sm))",
+      "tw-brightness": "initial",
+      "tw-contrast": "initial",
+      "tw-grayscale": "initial",
+      "tw-hue-rotate": "initial",
+      "tw-invert": "initial",
+      "tw-opacity": "initial",
+      "tw-saturate": "initial",
+      "tw-sepia": "initial",
+      "tw-drop-shadow": "initial",
+      "tw-drop-shadow-color": "initial",
+      "tw-drop-shadow-alpha": "100%",
+      "tw-drop-shadow-size": "initial",
+      "tw-backdrop-blur": "blur(var(--blur-xl))",
+      "tw-backdrop-brightness": "initial",
+      "tw-backdrop-contrast": "initial",
+      "tw-backdrop-grayscale": "initial",
+      "tw-backdrop-hue-rotate": "initial",
+      "tw-backdrop-invert": "initial",
+      "tw-backdrop-opacity": "initial",
+      "tw-backdrop-saturate": "initial",
+      "tw-backdrop-sepia": "initial",
+      "tw-duration": ".3s",
+      "tw-scale-x": "95%",
+      "tw-scale-y": "95%",
+      "tw-scale-z": "95%",
+      "tw-animation-delay": "0s",
+      "tw-animation-direction": "normal",
+      "tw-animation-duration": "initial",
+      "tw-animation-fill-mode": "none",
+      "tw-animation-iteration-count": "1",
+      "tw-enter-blur": "0",
+      "tw-enter-opacity": "1",
+      "tw-enter-rotate": "0",
+      "tw-enter-scale": "1",
+      "tw-enter-translate-x": "0",
+      "tw-enter-translate-y": "0",
+      "tw-exit-blur": "0",
+      "tw-exit-opacity": "1",
+      "tw-exit-rotate": "0",
+      "tw-exit-scale": "1",
+      "tw-exit-translate-x": "0",
+      "tw-exit-translate-y": "0",
+      "font-sans": "system-ui, -apple-system, sans-serif",
+      "color-amber-500": "lab(72.7183% 31.8672 97.9407)",
+      "color-blue-500": "lab(54.1736% 13.3369 -74.6839)",
+      "color-blue-600": "lab(44.0605% 29.0279 -86.0352)",
+      "color-violet-600": "lab(41.088% 68.9966 -91.995)",
+      "color-black": "#000",
+      "color-white": "#fff",
+      "spacing": ".25rem",
+      "container-xs": "20rem",
+      "container-md": "28rem",
+      "container-2xl": "42rem",
+      "container-3xl": "48rem",
+      "container-4xl": "56rem",
+      "container-5xl": "64rem",
+      "container-6xl": "72rem",
+      "text-xs": ".75rem",
+      "text-xs--line-height": "calc(1 / .75)",
+      "text-sm": ".875rem",
+      "text-sm--line-height": "calc(1.25 / .875)",
+      "text-base": "1rem",
+      "text-base--line-height": "calc(1.5 / 1)",
+      "text-lg": "1.125rem",
+      "text-lg--line-height": "calc(1.75 / 1.125)",
+      "text-xl": "1.25rem",
+      "text-xl--line-height": "calc(1.75 / 1.25)",
+      "text-2xl": "1.5rem",
+      "text-2xl--line-height": "calc(2 / 1.5)",
+      "text-3xl": "1.875rem",
+      "text-3xl--line-height": "calc(2.25 / 1.875)",
+      "text-4xl": "2.25rem",
+      "text-4xl--line-height": "calc(2.5 / 2.25)",
+      "text-5xl": "3rem",
+      "text-5xl--line-height": "1",
+      "font-weight-medium": "500",
+      "font-weight-semibold": "600",
+      "font-weight-bold": "700",
+      "font-weight-extrabold": "800",
+      "tracking-tight": "-.025em",
+      "tracking-wider": ".05em",
+      "tracking-widest": ".1em",
+      "leading-relaxed": "1.625",
+      "animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+      "blur-sm": "8px",
+      "blur-md": "12px",
+      "blur-xl": "24px",
+      "default-transition-duration": ".15s",
+      "default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+      "default-font-family": "var(--font-sans)",
+      "default-mono-font-family": "var(--font-geist-mono)",
+      "font-heading": "system-ui, -apple-system, sans-serif",
+      "tw-prose-body": "var(--tw-prose-invert-body)",
+      "tw-prose-headings": "var(--tw-prose-invert-headings)",
+      "tw-prose-lead": "var(--tw-prose-invert-lead)",
+      "tw-prose-links": "var(--tw-prose-invert-links)",
+      "tw-prose-bold": "var(--tw-prose-invert-bold)",
+      "tw-prose-counters": "var(--tw-prose-invert-counters)",
+      "tw-prose-bullets": "var(--tw-prose-invert-bullets)",
+      "tw-prose-hr": "var(--tw-prose-invert-hr)",
+      "tw-prose-quotes": "var(--tw-prose-invert-quotes)",
+      "tw-prose-quote-borders": "var(--tw-prose-invert-quote-borders)",
+      "tw-prose-captions": "var(--tw-prose-invert-captions)",
+      "tw-prose-kbd": "var(--tw-prose-invert-kbd)",
+      "tw-prose-kbd-shadows": "var(--tw-prose-invert-kbd-shadows)",
+      "tw-prose-code": "var(--tw-prose-invert-code)",
+      "tw-prose-pre-code": "var(--tw-prose-invert-pre-code)",
+      "tw-prose-pre-bg": "var(--tw-prose-invert-pre-bg)",
+      "tw-prose-th-borders": "var(--tw-prose-invert-th-borders)",
+      "tw-prose-td-borders": "var(--tw-prose-invert-td-borders)",
+      "tw-prose-invert-body": "lab(85.1236% -.612259 -3.7138)",
+      "tw-prose-invert-headings": "#fff",
+      "tw-prose-invert-lead": "lab(65.9269% -.832707 -8.17473)",
+      "tw-prose-invert-links": "#fff",
+      "tw-prose-invert-bold": "#fff",
+      "tw-prose-invert-counters": "lab(65.9269% -.832707 -8.17473)",
+      "tw-prose-invert-bullets": "lab(35.6337% -1.58697 -10.8425)",
+      "tw-prose-invert-hr": "lab(27.1134% -.956401 -12.3224)",
+      "tw-prose-invert-quotes": "lab(96.1596% -.0823438 -1.13575)",
+      "tw-prose-invert-quote-borders": "lab(27.1134% -.956401 -12.3224)",
+      "tw-prose-invert-captions": "lab(65.9269% -.832707 -8.17473)",
+      "tw-prose-invert-kbd": "#fff",
+      "tw-prose-invert-kbd-shadows": "#ffffff1a",
+      "tw-prose-invert-code": "#fff",
+      "tw-prose-invert-pre-code": "lab(85.1236% -.612259 -3.7138)",
+      "tw-prose-invert-pre-bg": "#00000080",
+      "tw-prose-invert-th-borders": "lab(35.6337% -1.58697 -10.8425)",
+      "tw-prose-invert-td-borders": "lab(27.1134% -.956401 -12.3224)",
+      "tw-outline-style": "none",
+      "font-mono": "monospace",
+      "radius": ".5rem",
+      "bg-primary": "var(--background)",
+      "bg-secondary": "var(--secondary)",
+      "bg-card": "var(--card)",
+      "text-primary": "var(--foreground)",
+      "text-secondary": "var(--muted-foreground)",
+      "accent": "#121217",
+      "background": "#030303",
+      "foreground": "#ebebeb",
+      "card": "#0b0b0e",
+      "card-foreground": "#f0f0f0",
+      "primary": "#ff4500",
+      "primary-foreground": "#fff",
+      "secondary": "#0f0f13",
+      "secondary-foreground": "#e0e0e0",
+      "muted": "#07070a",
+      "muted-foreground": "#8a8a8a",
+      "accent-foreground": "#ff4500",
+      "destructive": "#ef4444",
+      "destructive-foreground": "#fff",
+      "border": "#16161f",
+      "input": "#16161f",
+      "ring": "#ff4500",
+      "accent-2": "#e8622c",
+      "gradient": "linear-gradient(135deg, #ff4500, #e8622c, #b52800)",
+      "ce": "#ebedf0",
+      "cs": "#a855f7",
+      "c0": "#ebedf0",
+      "c1": "#9be9a8",
+      "c2": "#40c463",
+      "c3": "#30a14e",
+      "c4": "#216e39"
+    },
+    "hex_count": 70,
+    "warm_cream": [
+      "#FBFAF7",
+      "#F1EDE4",
+      "#F0EEE5"
+    ],
+    "near_black": [
+      "#121217",
+      "#050505",
+      "#0F0F13",
+      "#0C0C0C",
+      "#07070A",
+      "#000000",
+      "#0B0B0E",
+      "#000",
+      "#030303"
+    ],
+    "orange_amber": [
+      "#FF4500",
+      "#F99C00",
+      "#E8622C"
+    ],
+    "slop_fonts": [],
+    "gfonts": [],
+    "font_families": [
+      "Geist Mono,Geist Mono Fallback",
+      "var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace)",
+      "Geist,Geist Fallback",
+      "Geist Mono Fallback",
+      "Geist",
+      "var(--default-font-family,ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\")"
+    ],
+    "hex_sample": {
+      "#101828": {
+        "h": 220.0,
+        "s": 42.9,
+        "l": 11.0
+      },
+      "#222": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 13.3
+      },
+      "#383631": {
+        "h": 42.9,
+        "s": 6.7,
+        "l": 20.6
+      },
+      "#00DB6B": {
+        "h": 149.3,
+        "s": 100.0,
+        "l": 42.9
+      },
+      "#1C1C1C": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 11.0
+      },
+      "#4A5565": {
+        "h": 215.6,
+        "s": 15.4,
+        "l": 34.3
+      },
+      "#CCC": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 80.0
+      },
+      "#16161F": {
+        "h": 240.0,
+        "s": 17.0,
+        "l": 10.4
+      },
+      "#2C2C2C": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 17.3
+      },
+      "#9BE9A8": {
+        "h": 130.0,
+        "s": 63.9,
+        "l": 76.1
+      },
+      "#FF4500": {
+        "h": 16.2,
+        "s": 100.0,
+        "l": 50.0
+      },
+      "#8E8B82": {
+        "h": 45.0,
+        "s": 5.0,
+        "l": 53.3
+      }
+    }
+  },
+  {
+    "name": "AkashPriyadarshii",
+    "url": "https://akashpriyadarshii.github.io/AkashPriyadarshii/",
+    "domain_type": "developer portfolio / showcase",
+    "vars": {
+      "bg": "#EAE8D9",
+      "ink": "#0F0F0F",
+      "accent": "#FF3300",
+      "font-massive": "'Anton', sans-serif",
+      "font-micro": "'Space Mono', monospace"
+    },
+    "hex_count": 3,
+    "warm_cream": [],
+    "near_black": [
+      "#0F0F0F"
+    ],
+    "orange_amber": [],
+    "slop_fonts": [],
+    "gfonts": [
+      "Anton"
+    ],
+    "font_families": [
+      "'Space Mono', monospace",
+      "'Anton'",
+      "var(--font-micro)",
+      "'Space Mono'",
+      "var(--font-massive)"
+    ],
+    "hex_sample": {
+      "#0F0F0F": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 5.9
+      },
+      "#FF3300": {
+        "h": 12.0,
+        "s": 100.0,
+        "l": 50.0
+      },
+      "#EAE8D9": {
+        "h": 52.9,
+        "s": 28.8,
+        "l": 88.4
+      }
+    }
+  },
+  {
+    "name": "Resume",
+    "url": "https://akashpriyadarshii.github.io/Resume/",
+    "domain_type": "editorial resume / documents",
+    "vars": {},
+    "hex_count": 11,
+    "warm_cream": [],
+    "near_black": [],
+    "orange_amber": [],
+    "slop_fonts": [
+      "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "'Inter'",
+      "Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700"
+    ],
+    "gfonts": [
+      "Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700"
+    ],
+    "font_families": [
+      "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "'Inter'"
+    ],
+    "hex_sample": {
+      "#FFFFFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#FFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#F0F0F0": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 94.1
+      },
+      "#EEF2F7": {
+        "h": 213.3,
+        "s": 36.0,
+        "l": 95.1
+      },
+      "#2D2D3A": {
+        "h": 240.0,
+        "s": 12.6,
+        "l": 20.2
+      },
+      "#1A1A2E": {
+        "h": 240.0,
+        "s": 27.8,
+        "l": 14.1
+      },
+      "#16213E": {
+        "h": 223.5,
+        "s": 47.6,
+        "l": 16.5
+      },
+      "#E8E8E8": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 91.0
+      },
+      "#777": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 46.7
+      },
+      "#F5F5F0": {
+        "h": 60.0,
+        "s": 20.0,
+        "l": 95.1
+      },
+      "#0F3460": {
+        "h": 212.6,
+        "s": 73.0,
+        "l": 21.8
+      }
+    }
+  },
+  {
+    "name": "akashshell",
+    "url": "https://akashpriyadarshii.github.io/akashshell/",
+    "domain_type": "systems / terminal emulator",
+    "vars": {
+      "canvas": "#2b2622",
+      "canvas-soft": "#383330",
+      "primary": "#f7f5f0",
+      "ink": "#f7f5f0",
+      "body": "#c9c0ad",
+      "mute": "#aea69c",
+      "hairline": "#3f3a36",
+      "font-sans": "'Inter', system-ui, -apple-system, sans-serif",
+      "font-mono": "'DM Mono', 'JetBrains Mono', 'Fira Code', monospace",
+      "radius-sm": "3px",
+      "radius-md": "4px",
+      "radius-lg": "6px",
+      "ease-standard": "cubic-bezier(0.16, 1, 0.3, 1)"
+    },
+    "hex_count": 6,
+    "warm_cream": [
+      "#F7F5F0"
+    ],
+    "near_black": [],
+    "orange_amber": [],
+    "slop_fonts": [],
+    "gfonts": [],
+    "font_families": [
+      "var(--font-sans)",
+      "var(--font-mono)"
+    ],
+    "hex_sample": {
+      "#C9C0AD": {
+        "h": 40.7,
+        "s": 20.6,
+        "l": 73.3
+      },
+      "#383330": {
+        "h": 22.5,
+        "s": 7.7,
+        "l": 20.4
+      },
+      "#AEA69C": {
+        "h": 33.3,
+        "s": 10.0,
+        "l": 64.7
+      },
+      "#F7F5F0": {
+        "h": 42.9,
+        "s": 30.4,
+        "l": 95.5
+      },
+      "#3F3A36": {
+        "h": 26.7,
+        "s": 7.7,
+        "l": 22.9
+      },
+      "#2B2622": {
+        "h": 26.7,
+        "s": 11.7,
+        "l": 15.1
+      }
+    }
+  },
+  {
+    "name": "AkashBoard",
+    "url": "https://akashpriyadarshii.github.io/AkashBoard/",
+    "domain_type": "mobile / keyboard tool",
+    "vars": {
+      "primary": "#D34E24",
+      "primary-hover": "#E85D2C",
+      "primary-dark": "#B8401C",
+      "primary-ghost": "rgba(211, 78, 36, 0.12)",
+      "primary-rgb": "211, 78, 36",
+      "canvas": "#F5F5F5",
+      "surface-1": "#ECECEC",
+      "surface-card": "#FFFFFF",
+      "surface-elevated": "#FAFAFA",
+      "surface-code": "#1A1A1A",
+      "on-dark": "#0A0A0A",
+      "body": "#333333",
+      "body-strong": "#1A1A1A",
+      "muted": "#888888",
+      "muted-strong": "#666666",
+      "hairline": "#D4D4D4",
+      "hairline-strong": "#BBBBBB",
+      "success": "#22C55E",
+      "warning": "#F59E0B",
+      "warning-rgb": "245, 158, 11",
+      "font-display": "'Archivo', system-ui, sans-serif",
+      "font-body": "'Inter', system-ui, sans-serif",
+      "font-mono": "'IBM Plex Mono', 'JetBrains Mono', ui-monospace, monospace",
+      "sp-xxs": "4px",
+      "sp-xs": "8px",
+      "sp-sm": "12px",
+      "sp-md": "16px",
+      "sp-lg": "24px",
+      "sp-xl": "32px",
+      "sp-xxl": "48px",
+      "sp-section": "96px",
+      "r-none": "0px",
+      "r-xs": "2px",
+      "r-sm": "4px",
+      "r-full": "9999px",
+      "ease-out": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "ease-spring": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+    },
+    "hex_count": 28,
+    "warm_cream": [],
+    "near_black": [
+      "#121212",
+      "#0D0D0D",
+      "#0A0A0A"
+    ],
+    "orange_amber": [
+      "#E85D2C",
+      "#FEBC2E",
+      "#F59E0B"
+    ],
+    "slop_fonts": [
+      "'Inter'"
+    ],
+    "gfonts": [
+      "Archivo:wght@400;700;900"
+    ],
+    "font_families": [
+      "'Archivo'",
+      "'IBM Plex Mono'",
+      "var(--font-mono)",
+      "var(--font-display)",
+      "'Inter'",
+      "var(--font-body)"
+    ],
+    "hex_sample": {
+      "#E85D2C": {
+        "h": 15.6,
+        "s": 80.3,
+        "l": 54.1
+      },
+      "#C0C0C0": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 75.3
+      },
+      "#FAFAFA": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 98.0
+      },
+      "#FEBC2E": {
+        "h": 41.0,
+        "s": 99.0,
+        "l": 58.8
+      },
+      "#BBBBBB": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 73.3
+      },
+      "#121212": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 7.1
+      },
+      "#666666": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 40.0
+      },
+      "#FFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#1A1A1A": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 10.2
+      },
+      "#0D0D0D": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 5.1
+      },
+      "#2A2A2A": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 16.5
+      },
+      "#E0E0E0": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 87.8
+      }
+    }
+  },
+  {
+    "name": "kharcha",
+    "url": "https://akashpriyadarshii.github.io/kharcha/",
+    "domain_type": "finance / UPI expense tracker",
+    "vars": {
+      "primary": "#00E599",
+      "primary-hover": "#33ECAE",
+      "primary-alpha": "rgba(0, 229, 153, 0.15)",
+      "canvas": "#000000",
+      "surface-1": "#0A0B0C",
+      "surface-2": "#121315",
+      "ink": "#F7F8F8",
+      "ink-muted": "#8A8F98",
+      "hairline": "#1F2023",
+      "hairline-strong": "#2D2F34",
+      "semantic-expense": "#FF453A",
+      "semantic-income": "#32D74B",
+      "radius": "16px",
+      "font-display": "'Manrope', system-ui, sans-serif",
+      "font-body": "'Manrope', system-ui, sans-serif"
+    },
+    "hex_count": 15,
+    "warm_cream": [],
+    "near_black": [
+      "#000000",
+      "#121315",
+      "#0A0B0C",
+      "#000",
+      "#0E120F"
+    ],
+    "orange_amber": [
+      "#FF9F0A"
+    ],
+    "slop_fonts": [],
+    "gfonts": [
+      "Manrope:wght@400;500;600"
+    ],
+    "font_families": [
+      "'Manrope'",
+      "var(--font-display)",
+      "var(--font-body)"
+    ],
+    "hex_sample": {
+      "#000000": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 0.0
+      },
+      "#FF453A": {
+        "h": 3.4,
+        "s": 100.0,
+        "l": 61.4
+      },
+      "#121315": {
+        "h": 220.0,
+        "s": 7.7,
+        "l": 7.6
+      },
+      "#2D2F34": {
+        "h": 222.9,
+        "s": 7.2,
+        "l": 19.0
+      },
+      "#FF9F0A": {
+        "h": 36.5,
+        "s": 100.0,
+        "l": 52.0
+      },
+      "#0A0B0C": {
+        "h": 210.0,
+        "s": 9.1,
+        "l": 4.3
+      },
+      "#F7F8F8": {
+        "h": 180.0,
+        "s": 6.7,
+        "l": 97.1
+      },
+      "#1F2023": {
+        "h": 225.0,
+        "s": 6.1,
+        "l": 12.9
+      },
+      "#0A6B4D": {
+        "h": 161.4,
+        "s": 82.9,
+        "l": 22.9
+      },
+      "#32D74B": {
+        "h": 129.1,
+        "s": 67.3,
+        "l": 52.0
+      },
+      "#8A8F98": {
+        "h": 218.6,
+        "s": 6.4,
+        "l": 56.9
+      },
+      "#000": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 0.0
+      }
+    }
+  },
+  {
+    "name": "c2proof",
+    "url": "https://akashpriyadarshii.github.io/c2proof/",
+    "domain_type": "systems / verification compiler",
+    "vars": {
+      "bg": "#0c0e0d",
+      "panel": "#121514",
+      "panel2": "#171b19",
+      "ink": "#d8ddd6",
+      "dim": "#8a948b",
+      "faint": "#4a534c",
+      "accent": "#ff5c1f",
+      "ok": "#3dd68c",
+      "warn": "#e5c453",
+      "bad": "#ff4a57",
+      "paper": "#f4f1ea",
+      "paper-ink": "#26251e",
+      "rule": "#232a26",
+      "mono": "'JetBrains Mono',ui-monospace,Menlo,monospace",
+      "serif": "'Instrument Serif',Georgia,serif"
+    },
+    "hex_count": 19,
+    "warm_cream": [
+      "#F4F1EA"
+    ],
+    "near_black": [
+      "#080A09",
+      "#0C0E0D",
+      "#121514",
+      "#0A0C0B",
+      "#000"
+    ],
+    "orange_amber": [
+      "#FF5C1F",
+      "#FF7A47"
+    ],
+    "slop_fonts": [],
+    "gfonts": [
+      "JetBrains+Mono:ital,wght@0,400;0,700;0,800;1,400"
+    ],
+    "font_families": [
+      "'Instrument Serif'",
+      "var(--mono)",
+      "'JetBrains Mono'",
+      "var(--serif)"
+    ],
+    "hex_sample": {
+      "#FF4A57": {
+        "h": 355.7,
+        "s": 100.0,
+        "l": 64.5
+      },
+      "#FF5C1F": {
+        "h": 16.3,
+        "s": 100.0,
+        "l": 56.1
+      },
+      "#080A09": {
+        "h": 150.0,
+        "s": 11.1,
+        "l": 3.5
+      },
+      "#0C0E0D": {
+        "h": 150.0,
+        "s": 7.7,
+        "l": 5.1
+      },
+      "#3DD68C": {
+        "h": 151.0,
+        "s": 65.1,
+        "l": 53.9
+      },
+      "#A09A8C": {
+        "h": 42.0,
+        "s": 9.5,
+        "l": 58.8
+      },
+      "#F4F1EA": {
+        "h": 42.0,
+        "s": 31.3,
+        "l": 93.7
+      },
+      "#4A534C": {
+        "h": 133.3,
+        "s": 5.7,
+        "l": 30.8
+      },
+      "#26251E": {
+        "h": 52.5,
+        "s": 11.8,
+        "l": 13.3
+      },
+      "#FF7A47": {
+        "h": 16.6,
+        "s": 100.0,
+        "l": 63.9
+      },
+      "#D8DDD6": {
+        "h": 102.9,
+        "s": 9.3,
+        "l": 85.3
+      },
+      "#121514": {
+        "h": 160.0,
+        "s": 7.7,
+        "l": 7.6
+      }
+    }
+  },
+  {
+    "name": "cookbook",
+    "url": "https://akashpriyadarshii.github.io/cookbook/",
+    "domain_type": "technical documentation / scar lessons",
+    "vars": {
+      "paper": "#f2efe9",
+      "paper-dark": "#e8e4da",
+      "ink": "#1a1815",
+      "ink-faint": "#6b675e",
+      "blood": "#b3402a",
+      "blood-deep": "#8a2d1c",
+      "stamp-green": "#3d6b35",
+      "frame": "#1a1815",
+      "hairline": "#c9c4b8"
+    },
+    "hex_count": 9,
+    "warm_cream": [
+      "#F2EFE9",
+      "#E8E4DA"
+    ],
+    "near_black": [],
+    "orange_amber": [],
+    "slop_fonts": [],
+    "gfonts": [
+      "IBM+Plex+Mono:ital,wght@0,400;0,600;1,400"
+    ],
+    "font_families": [
+      "'IBM Plex Mono'",
+      "\"Special Elite\", \"Courier New\", monospace",
+      "'Special Elite'",
+      "\"Special Elite\",monospace",
+      "\"IBM Plex Mono\", \"Courier New\", monospace"
+    ],
+    "hex_sample": {
+      "#8A2D1C": {
+        "h": 9.3,
+        "s": 66.3,
+        "l": 32.5
+      },
+      "#B3402A": {
+        "h": 9.6,
+        "s": 62.0,
+        "l": 43.3
+      },
+      "#FBFAF6": {
+        "h": 48.0,
+        "s": 38.5,
+        "l": 97.5
+      },
+      "#3D6B35": {
+        "h": 111.1,
+        "s": 33.8,
+        "l": 31.4
+      },
+      "#1A1815": {
+        "h": 36.0,
+        "s": 10.6,
+        "l": 9.2
+      },
+      "#F2EFE9": {
+        "h": 40.0,
+        "s": 25.7,
+        "l": 93.1
+      },
+      "#C9C4B8": {
+        "h": 42.4,
+        "s": 13.6,
+        "l": 75.5
+      },
+      "#E8E4DA": {
+        "h": 42.9,
+        "s": 23.3,
+        "l": 88.2
+      },
+      "#6B675E": {
+        "h": 41.5,
+        "s": 6.5,
+        "l": 39.4
+      }
+    }
+  },
+  {
+    "name": "code2paper",
+    "url": "https://akashpriyadarshii.github.io/code2paper/",
+    "domain_type": "academic / publication tool",
+    "vars": {
+      "bg": "#0d0b08",
+      "bg-deep": "#090806",
+      "panel": "#14110d",
+      "panel-raised": "#1a1610",
+      "line": "#2a241b",
+      "line-soft": "#221d16",
+      "paper": "#f3ede1",
+      "paper-deep": "#e9e2d2",
+      "ink": "#1a1712",
+      "ink-soft": "#4a4338",
+      "accent": "#e8582c",
+      "accent-strong": "#ff6a38",
+      "text": "#f0e9dc",
+      "text-muted": "#a2988a",
+      "text-dim": "#7a7164",
+      "font-display": "'Fraunces', 'Times New Roman', serif",
+      "font-body": "'Space Grotesk', -apple-system, sans-serif",
+      "font-code": "'JetBrains Mono', ui-monospace, monospace",
+      "ease-out": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "ease-snap": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "wrap": "1240px",
+      "z-nav": "40",
+      "z-menu": "50",
+      "z-toast": "60"
+    },
+    "hex_count": 23,
+    "warm_cream": [],
+    "near_black": [
+      "#0D0B08",
+      "#0A0907",
+      "#14110D",
+      "#111",
+      "#090806"
+    ],
+    "orange_amber": [
+      "#FF6A38"
+    ],
+    "slop_fonts": [
+      "'Space Grotesk'"
+    ],
+    "gfonts": [
+      "Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900"
+    ],
+    "font_families": [
+      "sans-serif",
+      "'JetBrains Mono'",
+      "var(--font-display)",
+      "'Fraunces'",
+      "var(--font-code)",
+      "'Fraunces', 'Times New Roman', serif"
+    ],
+    "hex_sample": {
+      "#4A4338": {
+        "h": 36.7,
+        "s": 13.8,
+        "l": 25.5
+      },
+      "#0D0B08": {
+        "h": 36.0,
+        "s": 23.8,
+        "l": 4.1
+      },
+      "#FFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#0A0907": {
+        "h": 40.0,
+        "s": 17.6,
+        "l": 3.3
+      },
+      "#A2988A": {
+        "h": 35.0,
+        "s": 11.4,
+        "l": 58.8
+      },
+      "#F1F5F9": {
+        "h": 210.0,
+        "s": 40.0,
+        "l": 96.1
+      },
+      "#14110D": {
+        "h": 34.3,
+        "s": 21.2,
+        "l": 6.5
+      },
+      "#DDD": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 86.7
+      },
+      "#2A241B": {
+        "h": 36.0,
+        "s": 21.7,
+        "l": 13.5
+      },
+      "#111": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 6.7
+      },
+      "#221D16": {
+        "h": 35.0,
+        "s": 21.4,
+        "l": 11.0
+      },
+      "#FF6A38": {
+        "h": 15.1,
+        "s": 100.0,
+        "l": 61.0
+      }
+    }
+  },
+  {
+    "name": "sevolve",
+    "url": "https://AkashPriyadarshii.github.io/sevolve/",
+    "domain_type": "AI / self-evolving agent harness",
+    "vars": {
+      "bg": "#f5f1ea",
+      "ink": "#1a1a1a",
+      "muted": "#6b6b6b",
+      "accent": "#c6392b",
+      "accent2": "#1f6f43",
+      "line": "#d9d2c6",
+      "card": "#fffdf8",
+      "mono": "\"SF Mono\",Consolas,monospace",
+      "serif": "Georgia,\"Times New Roman\",serif",
+      "sans": "-apple-system,Segoe UI,sans-serif"
+    },
+    "hex_count": 14,
+    "warm_cream": [],
+    "near_black": [
+      "#141414",
+      "#000"
+    ],
+    "orange_amber": [],
+    "slop_fonts": [],
+    "gfonts": [],
+    "font_families": [
+      "var(--mono)"
+    ],
+    "hex_sample": {
+      "#A92C1F": {
+        "h": 5.7,
+        "s": 69.0,
+        "l": 39.2
+      },
+      "#141414": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 7.8
+      },
+      "#000": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 0.0
+      },
+      "#FFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#1A1A1A": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 10.2
+      },
+      "#7D7D7D": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 49.0
+      },
+      "#1F6F43": {
+        "h": 147.0,
+        "s": 56.3,
+        "l": 27.8
+      },
+      "#6B6B6B": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 42.0
+      },
+      "#7EE0A0": {
+        "h": 140.8,
+        "s": 61.2,
+        "l": 68.6
+      },
+      "#C6392B": {
+        "h": 5.4,
+        "s": 64.3,
+        "l": 47.3
+      },
+      "#FFFDF8": {
+        "h": 42.9,
+        "s": 100.0,
+        "l": 98.6
+      },
+      "#F5F1EA": {
+        "h": 38.2,
+        "s": 35.5,
+        "l": 93.9
+      }
+    }
+  },
+  {
+    "name": "ccsync",
+    "url": "https://akashpriyadarshii.github.io/ccsync/",
+    "domain_type": "developer tooling / fleet sync",
+    "vars": {
+      "bg": "#faf9f6",
+      "ink": "#17150f",
+      "muted": "#6b675c",
+      "accent": "#e0523d",
+      "line": "#e3e0d5",
+      "card": "#ffffff",
+      "code-bg": "#1d1b16",
+      "code-ink": "#f4f1e8"
+    },
+    "hex_count": 11,
+    "warm_cream": [
+      "#F0EEE6",
+      "#FAF9F6"
+    ],
+    "near_black": [
+      "#17150F"
+    ],
+    "orange_amber": [],
+    "slop_fonts": [],
+    "gfonts": [],
+    "font_families": [
+      "ui-monospace, \"Cascadia Code\", \"SF Mono\", Menlo, Consolas, monospace"
+    ],
+    "hex_sample": {
+      "#FFFFFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#F4F1E8": {
+        "h": 45.0,
+        "s": 35.3,
+        "l": 93.3
+      },
+      "#6B675C": {
+        "h": 44.0,
+        "s": 7.5,
+        "l": 39.0
+      },
+      "#FFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#8A857A": {
+        "h": 41.3,
+        "s": 6.4,
+        "l": 51.0
+      },
+      "#F0EEE6": {
+        "h": 48.0,
+        "s": 25.0,
+        "l": 92.2
+      },
+      "#E0523D": {
+        "h": 7.7,
+        "s": 72.4,
+        "l": 55.9
+      },
+      "#1D1B16": {
+        "h": 42.9,
+        "s": 13.7,
+        "l": 10.0
+      },
+      "#17150F": {
+        "h": 45.0,
+        "s": 21.1,
+        "l": 7.5
+      },
+      "#FAF9F6": {
+        "h": 45.0,
+        "s": 28.6,
+        "l": 97.3
+      },
+      "#E3E0D5": {
+        "h": 47.1,
+        "s": 20.0,
+        "l": 86.3
+      }
+    }
+  },
+  {
+    "name": "neet-cbt-site",
+    "url": "https://akashpriyadarshii.github.io/neet-cbt-site/",
+    "domain_type": "education / NTA exam marketing",
+    "vars": {
+      "navy": "#1a2b4a",
+      "blue": "#1a56db",
+      "blue-deep": "#123c96",
+      "accent": "#e8b23a",
+      "ink": "#16233d",
+      "paper": "#f4f6fa",
+      "white": "#ffffff",
+      "line": "#dbe3ef",
+      "green": "#15803d",
+      "radius": "10px",
+      "shadow": "0 10px 30px rgba(22,35,61,.08)"
+    },
+    "hex_count": 16,
+    "warm_cream": [],
+    "near_black": [],
+    "orange_amber": [
+      "#E8B23A",
+      "#FBBF24"
+    ],
+    "slop_fonts": [
+      "system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif"
+    ],
+    "gfonts": [],
+    "font_families": [
+      "system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif"
+    ],
+    "hex_sample": {
+      "#EEF2F8": {
+        "h": 216.0,
+        "s": 41.7,
+        "l": 95.3
+      },
+      "#FFFFFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#F87171": {
+        "h": 0.0,
+        "s": 90.6,
+        "l": 70.8
+      },
+      "#FFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#123C96": {
+        "h": 220.9,
+        "s": 78.6,
+        "l": 32.9
+      },
+      "#E8B23A": {
+        "h": 41.4,
+        "s": 79.1,
+        "l": 56.9
+      },
+      "#34D399": {
+        "h": 158.1,
+        "s": 64.4,
+        "l": 51.6
+      },
+      "#1A56DB": {
+        "h": 221.3,
+        "s": 78.8,
+        "l": 48.0
+      },
+      "#F4F6FA": {
+        "h": 220.0,
+        "s": 37.5,
+        "l": 96.9
+      },
+      "#16233D": {
+        "h": 220.0,
+        "s": 47.0,
+        "l": 16.3
+      },
+      "#FBBF24": {
+        "h": 43.3,
+        "s": 96.4,
+        "l": 56.3
+      },
+      "#1A2B4A": {
+        "h": 218.7,
+        "s": 48.0,
+        "l": 19.6
+      }
+    }
+  },
+  {
+    "name": "repomap",
+    "url": "https://akashpriyadarshii.github.io/repomap/",
+    "domain_type": "developer tooling / codebase map",
+    "vars": {},
+    "hex_count": 61,
+    "warm_cream": [],
+    "near_black": [
+      "#000000",
+      "#000"
+    ],
+    "orange_amber": [
+      "#E36209"
+    ],
+    "slop_fonts": [],
+    "gfonts": [],
+    "font_families": [
+      "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+      "sans-serif",
+      "\"SFMono-Regular\",Consolas,\"Liberation Mono\",Menlo,Courier,monospace",
+      "inherit",
+      "monospace, monospace"
+    ],
+    "hex_sample": {
+      "#F6F8FA": {
+        "h": 210.0,
+        "s": 28.6,
+        "l": 97.3
+      },
+      "#E1E4E8": {
+        "h": 214.3,
+        "s": 13.2,
+        "l": 89.6
+      },
+      "#FFDCE0": {
+        "h": 353.1,
+        "s": 100.0,
+        "l": 93.1
+      },
+      "#444D56": {
+        "h": 210.0,
+        "s": 11.7,
+        "l": 30.2
+      },
+      "#990000": {
+        "h": 0.0,
+        "s": 100.0,
+        "l": 30.0
+      },
+      "#008080": {
+        "h": 180.0,
+        "s": 100.0,
+        "l": 25.1
+      },
+      "#FFDDDD": {
+        "h": 0.0,
+        "s": 100.0,
+        "l": 93.3
+      },
+      "#BBBBBB": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 73.3
+      },
+      "#FFF5B1": {
+        "h": 52.3,
+        "s": 100.0,
+        "l": 84.7
+      },
+      "#CB2431": {
+        "h": 355.3,
+        "s": 69.9,
+        "l": 46.9
+      },
+      "#28A745": {
+        "h": 133.7,
+        "s": 61.4,
+        "l": 40.6
+      },
+      "#FFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      }
+    }
+  },
+  {
+    "name": "tdlib-android",
+    "url": "https://akashpriyadarshii.github.io/tdlib-android/",
+    "domain_type": "systems / Android native precompiled",
+    "vars": {
+      "bg": "#0a0a0b",
+      "surface": "#121214",
+      "surface-alt": "#161618",
+      "surface-warm": "#1a1714",
+      "surface-hover": "#1c1c1f",
+      "border": "#23252a",
+      "border-hover": "#34343a",
+      "text": "#f7f8f8",
+      "text-secondary": "#d0d6e0",
+      "text-tertiary": "#8a8f98",
+      "text-faint": "#62666d",
+      "accent": "#3ecf8e",
+      "accent-hover": "#4ade80",
+      "accent-deep": "#24b47e",
+      "on-accent": "#0a0a0b",
+      "bg-rgb": "10,10,11",
+      "accent-rgb": "62,207,142",
+      "success": "#27a644",
+      "error": "#e5484d",
+      "warning": "#f5a524",
+      "code-bg": "#0d0d0f",
+      "code-border": "#1f2227",
+      "px-sans": "'IBM Plex Sans', system-ui, -apple-system, Segoe UI, sans-serif",
+      "px-mono": "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    },
+    "hex_count": 25,
+    "warm_cream": [],
+    "near_black": [
+      "#121214",
+      "#0A0A0B",
+      "#0D0D0F"
+    ],
+    "orange_amber": [
+      "#FEBC2E",
+      "#F5A524"
+    ],
+    "slop_fonts": [],
+    "gfonts": [],
+    "font_families": [
+      "var(--px-mono)",
+      "var(--px-sans)"
+    ],
+    "hex_sample": {
+      "#4ADE80": {
+        "h": 141.9,
+        "s": 69.2,
+        "l": 58.0
+      },
+      "#F7F8F8": {
+        "h": 180.0,
+        "s": 6.7,
+        "l": 97.1
+      },
+      "#62666D": {
+        "h": 218.2,
+        "s": 5.3,
+        "l": 40.6
+      },
+      "#161618": {
+        "h": 240.0,
+        "s": 4.3,
+        "l": 9.0
+      },
+      "#34343A": {
+        "h": 240.0,
+        "s": 5.5,
+        "l": 21.6
+      },
+      "#24B47E": {
+        "h": 157.5,
+        "s": 66.7,
+        "l": 42.4
+      },
+      "#C9A86A": {
+        "h": 39.2,
+        "s": 46.8,
+        "l": 60.2
+      },
+      "#121214": {
+        "h": 240.0,
+        "s": 5.3,
+        "l": 7.5
+      },
+      "#27A644": {
+        "h": 133.7,
+        "s": 62.0,
+        "l": 40.2
+      },
+      "#E5484D": {
+        "h": 358.1,
+        "s": 75.1,
+        "l": 59.0
+      },
+      "#1C1C1F": {
+        "h": 240.0,
+        "s": 5.1,
+        "l": 11.6
+      },
+      "#1F2227": {
+        "h": 217.5,
+        "s": 11.4,
+        "l": 13.7
+      }
+    }
+  },
+  {
+    "name": "dehraduntourism",
+    "url": "https://dehradun1.vercel.app",
+    "domain_type": "tourism / travel portal",
+    "vars": {
+      "font-outfit": "\"Outfit\", \"Outfit Fallback\"",
+      "font-inter": "\"Inter\", \"Inter Fallback\"",
+      "font-noto-devanagari": "\"Noto Sans Devanagari\", \"Noto Sans Devanagari Fallback\"",
+      "tw-translate-x": "calc(var(--spacing) * -1.5)",
+      "tw-translate-y": "calc(var(--spacing) * -1)",
+      "tw-translate-z": "0",
+      "tw-scale-x": "105%",
+      "tw-scale-y": "105%",
+      "tw-scale-z": "105%",
+      "tw-space-y-reverse": "0",
+      "tw-divide-y-reverse": "0",
+      "tw-border-style": "solid",
+      "tw-gradient-position": "to top in oklab",
+      "tw-gradient-from": "color-mix(in oklab, var(--color-black) 60%, transparent)",
+      "tw-gradient-via": "#0000",
+      "tw-gradient-to": "transparent",
+      "tw-gradient-stops": "var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))",
+      "tw-gradient-via-stops": "initial",
+      "tw-gradient-from-position": "0%",
+      "tw-gradient-via-position": "50%",
+      "tw-gradient-to-position": "100%",
+      "tw-leading": "var(--leading-tight)",
+      "tw-font-weight": "var(--font-weight-semibold)",
+      "tw-tracking": "var(--tracking-widest)",
+      "tw-shadow": "0 4px 6px -1px var(--tw-shadow-color,#0000001a), 0 2px 4px -2px var(--tw-shadow-color,#0000001a)",
+      "tw-shadow-color": "initial",
+      "tw-shadow-alpha": "100%",
+      "tw-inset-shadow": "0 0 #0000",
+      "tw-inset-shadow-color": "initial",
+      "tw-inset-shadow-alpha": "100%",
+      "tw-ring-color": "initial",
+      "tw-ring-shadow": "0 0 #0000",
+      "tw-inset-ring-color": "initial",
+      "tw-inset-ring-shadow": "0 0 #0000",
+      "tw-ring-inset": "initial",
+      "tw-ring-offset-width": "0px",
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-offset-shadow": "0 0 #0000",
+      "tw-blur": "blur(8px)",
+      "tw-brightness": "initial",
+      "tw-contrast": "initial",
+      "tw-grayscale": "initial",
+      "tw-hue-rotate": "initial",
+      "tw-invert": "initial",
+      "tw-opacity": "initial",
+      "tw-saturate": "initial",
+      "tw-sepia": "initial",
+      "tw-drop-shadow": "initial",
+      "tw-drop-shadow-color": "initial",
+      "tw-drop-shadow-alpha": "100%",
+      "tw-drop-shadow-size": "initial",
+      "tw-backdrop-blur": "blur(var(--blur-xl))",
+      "tw-backdrop-brightness": "initial",
+      "tw-backdrop-contrast": "initial",
+      "tw-backdrop-grayscale": "initial",
+      "tw-backdrop-hue-rotate": "initial",
+      "tw-backdrop-invert": "initial",
+      "tw-backdrop-opacity": "initial",
+      "tw-backdrop-saturate": "initial",
+      "tw-backdrop-sepia": "initial",
+      "tw-duration": ".5s",
+      "tw-ease": "var(--ease-out)",
+      "font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "color-red-400": "lab(63.7053% 60.745 31.3109)",
+      "color-red-600": "lab(48.4493% 77.4328 61.5452)",
+      "color-green-400": "lab(78.503% -64.9265 39.7492)",
+      "color-green-500": "lab(70.5521% -66.5147 45.8073)",
+      "color-green-700": "lab(47.0329% -47.0239 31.4788)",
+      "color-emerald-50": "lab(97.8462% -6.94966 1.85487)",
+      "color-emerald-200": "lab(90.2247% -31.039 9.47084)",
+      "color-emerald-300": "lab(83.9203% -48.7124 13.8849)",
+      "color-emerald-500": "lab(66.9756% -58.27 19.5419)",
+      "color-emerald-800": "lab(35.3675% -33.1188 8.04002)",
+      "color-emerald-950": "lab(15.0582% -17.9507 2.38369)",
+      "color-blue-400": "lab(65.0361% -1.42065 -56.9802)",
+      "color-blue-500": "lab(54.1736% 13.3369 -74.6839)",
+      "color-blue-600": "lab(44.0605% 29.0279 -86.0352)",
+      "color-blue-700": "lab(36.9089% 35.0961 -85.6872)",
+      "color-gray-50": "lab(98.2596% -.247031 -.706708)",
+      "color-gray-100": "lab(96.1596% -.0823438 -1.13575)",
+      "color-gray-200": "lab(91.6229% -.159115 -2.26791)",
+      "color-gray-300": "lab(85.1236% -.612259 -3.7138)",
+      "color-gray-400": "lab(65.9269% -.832707 -8.17473)",
+      "color-gray-600": "lab(35.6337% -1.58697 -10.8425)",
+      "color-gray-700": "lab(27.1134% -.956401 -12.3224)",
+      "color-gray-800": "lab(16.1051% -1.18239 -11.7533)",
+      "color-gray-900": "lab(8.11897% .811279 -12.254)",
+      "color-gray-950": "lab(1.90334% .278696 -5.48866)",
+      "color-black": "#000",
+      "color-white": "#fff",
+      "spacing": ".25rem",
+      "container-md": "28rem",
+      "container-lg": "32rem",
+      "container-xl": "36rem",
+      "container-2xl": "42rem",
+      "container-3xl": "48rem",
+      "container-4xl": "56rem",
+      "container-5xl": "64rem",
+      "container-6xl": "72rem",
+      "container-7xl": "80rem",
+      "text-xs": ".75rem",
+      "text-xs--line-height": "calc(1 / .75)",
+      "text-sm": ".875rem",
+      "text-sm--line-height": "calc(1.25 / .875)",
+      "text-base": "1rem",
+      "text-base--line-height": "calc(1.5 / 1)",
+      "text-lg": "1.125rem",
+      "text-lg--line-height": "calc(1.75 / 1.125)",
+      "text-xl": "1.25rem",
+      "text-xl--line-height": "calc(1.75 / 1.25)",
+      "text-2xl": "1.5rem",
+      "text-2xl--line-height": "calc(2 / 1.5)",
+      "text-3xl": "1.875rem",
+      "text-3xl--line-height": "calc(2.25 / 1.875)",
+      "text-4xl": "2.25rem",
+      "text-4xl--line-height": "calc(2.5 / 2.25)",
+      "text-5xl": "3rem",
+      "text-5xl--line-height": "1",
+      "text-7xl": "4.5rem",
+      "text-7xl--line-height": "1",
+      "text-8xl": "6rem",
+      "text-8xl--line-height": "1",
+      "font-weight-light": "300",
+      "font-weight-medium": "500",
+      "font-weight-semibold": "600",
+      "font-weight-bold": "700",
+      "font-weight-extrabold": "800",
+      "tracking-tight": "-.025em",
+      "tracking-wide": ".025em",
+      "tracking-wider": ".05em",
+      "tracking-widest": ".1em",
+      "leading-tight": "1.25",
+      "leading-relaxed": "1.625",
+      "radius-lg": ".5rem",
+      "radius-xl": ".75rem",
+      "radius-2xl": "1rem",
+      "radius-3xl": "1.5rem",
+      "ease-out": "cubic-bezier(0, 0, .2, 1)",
+      "animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+      "blur-sm": "8px",
+      "blur-xl": "24px",
+      "aspect-video": "16 / 9",
+      "default-transition-duration": ".15s",
+      "default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+      "default-font-family": "var(--font-sans)",
+      "default-mono-font-family": "var(--font-mono)",
+      "font-heading": "var(--font-outfit), system-ui, sans-serif",
+      "font-body": "var(--font-inter), system-ui, sans-serif",
+      "font-hindi": "var(--font-noto-devanagari), var(--font-body)",
+      "tw-outline-style": "none",
+      "bg": "lab(1.95475% -.10851 -2.58467)",
+      "ink": "lab(94.2722% -.598699 3.76062)",
+      "muted": "lab(47.9361% -1.06627 7.6234)",
+      "primary": "lab(57.9394% -47.8174 40.6994)",
+      "primary-hover": "lab(69.2376% -39.2288 32.1095)",
+      "primary-subtle": "lab(5.64387% -7.8529 5.66435)",
+      "accent": "lab(76.6366% 21.5807 73.1029)",
+      "accent-hover": "lab(86.0134% 17.5945 59.0649)",
+      "card-bg": "lab(3.63763% -.181116 -5.28437)",
+      "card-border": "lab(11.7506% -.5823 -7.27103)",
+      "section-alt": "lab(1.16684% .0229254 -2.68119)",
+      "nav-bg": "lab(1.95475% -.10851 -2.58467/.82)",
+      "lightningcss-light": "",
+      "lightningcss-dark": "initial"
+    },
+    "hex_count": 62,
+    "warm_cream": [],
+    "near_black": [
+      "#030712",
+      "#05070D",
+      "#070B14",
+      "#051606",
+      "#02040B",
+      "#080D16",
+      "#000"
+    ],
+    "orange_amber": [
+      "#E39000",
+      "#F9AD26",
+      "#BE7100"
+    ],
+    "slop_fonts": [
+      "Inter,Inter Fallback",
+      "Inter Fallback",
+      "Inter"
+    ],
+    "gfonts": [],
+    "font_families": [
+      "\"Helvetica Neue\", Arial, Helvetica, sans-serif",
+      "Outfit Fallback",
+      "var(--font-mono)",
+      "var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace)",
+      "var(--font-hindi)",
+      "Inter,Inter Fallback"
+    ],
+    "hex_sample": {
+      "#FF6568": {
+        "h": 358.8,
+        "s": 100.0,
+        "l": 69.8
+      },
+      "#101828": {
+        "h": 220.0,
+        "s": 42.9,
+        "l": 11.0
+      },
+      "#CCC": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 80.0
+      },
+      "#F9FAFB": {
+        "h": 210.0,
+        "s": 20.0,
+        "l": 98.0
+      },
+      "#222": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 13.3
+      },
+      "#4A5565": {
+        "h": 215.6,
+        "s": 15.4,
+        "l": 34.3
+      },
+      "#2F9F3D": {
+        "h": 127.5,
+        "s": 54.4,
+        "l": 40.4
+      },
+      "#0A3D2E": {
+        "h": 162.4,
+        "s": 71.8,
+        "l": 13.9
+      },
+      "#DADEE5": {
+        "h": 218.2,
+        "s": 17.5,
+        "l": 87.6
+      },
+      "#1447E6": {
+        "h": 225.4,
+        "s": 84.0,
+        "l": 49.0
+      },
+      "#E40014": {
+        "h": 354.7,
+        "s": 100.0,
+        "l": 44.7
+      },
+      "#ECFDF5": {
+        "h": 151.8,
+        "s": 81.0,
+        "l": 95.9
+      }
+    }
+  },
+  {
+    "name": "sitamarhi",
+    "url": "https://sitamarhi.pages.dev",
+    "domain_type": "heritage / tourism portal",
+    "vars": {
+      "body-bg": "#1a1410",
+      "saffron": "#d06a20",
+      "green": "#1a7a3c",
+      "sand": "#f5e6d3",
+      "sand-dark": "#e0d5c8",
+      "cream": "#fdf8f3",
+      "dark": "#1a1410",
+      "dark-2": "#2a221c",
+      "text": "#d5c8b8",
+      "body-text": "#c4b4a4",
+      "text-light": "#9a8a78",
+      "gold": "#b8922e",
+      "gold-light": "#e8cc80",
+      "white": "#fff",
+      "shadow": "0 8px 32px rgba(0,0,0,0.3)",
+      "shadow-lg": "0 20px 60px rgba(0,0,0,0.4)",
+      "radius": "16px",
+      "radius-sm": "8px",
+      "transition": "0.5s cubic-bezier(0.16,1,0.3,1)",
+      "nav-bg": "transparent",
+      "nav-text": "var(--white)",
+      "nav-scroll-bg": "rgba(26,20,16,0.95)",
+      "section-bg-about": "#1a1410",
+      "section-bg-places": "#221a14",
+      "section-bg-timeline": "#1a1410",
+      "section-bg-transport": "#221a14",
+      "section-bg-support": "#1a1410",
+      "section-bg-gallery": "#1a1410",
+      "card-bg": "#2a221c",
+      "card-border": "#3d322c",
+      "stat-bg": "#2a221c",
+      "stat-border": "#3d322c",
+      "nav-link-scrolled": "#d5c8b8"
+    },
+    "hex_count": 36,
+    "warm_cream": [],
+    "near_black": [
+      "#0D0A08"
+    ],
+    "orange_amber": [
+      "#B8922E",
+      "#D06A20",
+      "#C9A84C"
+    ],
+    "slop_fonts": [
+      "'Inter',system-ui,sans-serif",
+      "'Inter',sans-serif",
+      "'Inter',monospace",
+      "'Inter'"
+    ],
+    "gfonts": [
+      "Playfair+Display:wght@400;500;600;700;800;900"
+    ],
+    "font_families": [
+      "'Noto Sans Devanagari'",
+      "\"Helvetica Neue\", Arial, Helvetica, sans-serif",
+      "'Playfair Display',serif",
+      "'Noto Sans Devanagari','Nirmala UI','Mangal','Lohit Devanagari',sans-serif",
+      "'Playfair Display',Georgia,serif",
+      "'Noto Sans Devanagari',sans-serif"
+    ],
+    "hex_sample": {
+      "#E8CC80": {
+        "h": 43.8,
+        "s": 69.3,
+        "l": 70.6
+      },
+      "#CCC": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 80.0
+      },
+      "#222": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 13.3
+      },
+      "#B8922E": {
+        "h": 43.5,
+        "s": 60.0,
+        "l": 45.1
+      },
+      "#4285F4": {
+        "h": 217.4,
+        "s": 89.0,
+        "l": 60.8
+      },
+      "#9A8A78": {
+        "h": 31.8,
+        "s": 14.4,
+        "l": 53.7
+      },
+      "#1A7A3C": {
+        "h": 141.2,
+        "s": 64.9,
+        "l": 29.0
+      },
+      "#F5E6D3": {
+        "h": 33.5,
+        "s": 63.0,
+        "l": 89.4
+      },
+      "#2A1A0E": {
+        "h": 25.7,
+        "s": 50.0,
+        "l": 11.0
+      },
+      "#7A6B5F": {
+        "h": 26.7,
+        "s": 12.4,
+        "l": 42.5
+      },
+      "#0D0A08": {
+        "h": 24.0,
+        "s": 23.8,
+        "l": 4.1
+      },
+      "#999": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 60.0
+      }
+    }
+  },
+  {
+    "name": "paperleaks",
+    "url": "https://paperleaks.vercel.app",
+    "domain_type": "news / public integrity / corruption expos\u00e9",
+    "vars": {
+      "font-display": "var(--font-display), sans-serif",
+      "font-body": "var(--font-body), sans-serif",
+      "tw-space-y-reverse": "0",
+      "tw-border-style": "solid",
+      "tw-leading": "var(--leading-relaxed)",
+      "tw-font-weight": "var(--font-weight-semibold)",
+      "tw-tracking": "var(--tracking-widest)",
+      "tw-ordinal": "initial",
+      "tw-slashed-zero": "initial",
+      "tw-numeric-figure": "initial",
+      "tw-numeric-spacing": "tabular-nums",
+      "tw-numeric-fraction": "initial",
+      "tw-shadow": "0 0 #0000",
+      "tw-shadow-color": "initial",
+      "tw-shadow-alpha": "100%",
+      "tw-inset-shadow": "0 0 #0000",
+      "tw-inset-shadow-color": "initial",
+      "tw-inset-shadow-alpha": "100%",
+      "tw-ring-color": "initial",
+      "tw-ring-shadow": "var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor)",
+      "tw-inset-ring-color": "initial",
+      "tw-inset-ring-shadow": "0 0 #0000",
+      "tw-ring-inset": "initial",
+      "tw-ring-offset-width": "0px",
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-offset-shadow": "0 0 #0000",
+      "tw-blur": "blur(8px)",
+      "tw-brightness": "initial",
+      "tw-contrast": "initial",
+      "tw-grayscale": "initial",
+      "tw-hue-rotate": "initial",
+      "tw-invert": "initial",
+      "tw-opacity": "initial",
+      "tw-saturate": "initial",
+      "tw-sepia": "initial",
+      "tw-drop-shadow": "initial",
+      "tw-drop-shadow-color": "initial",
+      "tw-drop-shadow-alpha": "100%",
+      "tw-drop-shadow-size": "initial",
+      "tw-backdrop-blur": "blur(var(--blur-md))",
+      "tw-backdrop-brightness": "initial",
+      "tw-backdrop-contrast": "initial",
+      "tw-backdrop-grayscale": "initial",
+      "tw-backdrop-hue-rotate": "initial",
+      "tw-backdrop-invert": "initial",
+      "tw-backdrop-opacity": "initial",
+      "tw-backdrop-saturate": "initial",
+      "tw-backdrop-sepia": "initial",
+      "tw-scale-x": "150%",
+      "tw-scale-y": "150%",
+      "tw-scale-z": "150%",
+      "font-sans": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "color-black": "#000",
+      "color-white": "#fff",
+      "spacing": ".25rem",
+      "container-md": "28rem",
+      "container-xl": "36rem",
+      "container-2xl": "42rem",
+      "container-3xl": "48rem",
+      "container-4xl": "56rem",
+      "container-5xl": "64rem",
+      "container-7xl": "80rem",
+      "text-xs": ".75rem",
+      "text-xs--line-height": "calc(1 / .75)",
+      "text-sm": ".875rem",
+      "text-sm--line-height": "calc(1.25 / .875)",
+      "text-base": "1rem",
+      "text-base--line-height": "calc(1.5 / 1)",
+      "text-lg": "1.125rem",
+      "text-lg--line-height": "calc(1.75 / 1.125)",
+      "text-xl": "1.25rem",
+      "text-xl--line-height": "calc(1.75 / 1.25)",
+      "text-2xl": "1.5rem",
+      "text-2xl--line-height": "calc(2 / 1.5)",
+      "text-3xl": "1.875rem",
+      "text-3xl--line-height": "calc(2.25 / 1.875)",
+      "text-4xl": "2.25rem",
+      "text-4xl--line-height": "calc(2.5 / 2.25)",
+      "text-5xl": "3rem",
+      "text-5xl--line-height": "1",
+      "text-7xl": "4.5rem",
+      "text-7xl--line-height": "1",
+      "font-weight-medium": "500",
+      "font-weight-semibold": "600",
+      "font-weight-bold": "700",
+      "tracking-tight": "-.025em",
+      "tracking-wide": ".025em",
+      "tracking-wider": ".05em",
+      "tracking-widest": ".1em",
+      "leading-relaxed": "1.625",
+      "radius-sm": ".25rem",
+      "blur-md": "12px",
+      "default-transition-duration": ".15s",
+      "default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+      "default-font-family": "var(--font-sans)",
+      "default-mono-font-family": "var(--font-mono)",
+      "tw-outline-style": "none",
+      "bg": "#fafafa",
+      "text": "#0a0a0a",
+      "muted": "#52525b",
+      "confirmed": "#b91c1c",
+      "alleged": "#b45309",
+      "denied": "#52525b",
+      "breaking": "#dc2626",
+      "border": "#d4d4d8",
+      "surface": "#f4f4f5",
+      "lightningcss-light": "initial",
+      "lightningcss-dark": ""
+    },
+    "hex_count": 16,
+    "warm_cream": [],
+    "near_black": [
+      "#0A0A0A",
+      "#000"
+    ],
+    "orange_amber": [
+      "#B45309",
+      "#F59E0B"
+    ],
+    "slop_fonts": [
+      "Space Grotesk",
+      "Space Grotesk Fallback",
+      "Inter,Inter Fallback",
+      "Inter Fallback",
+      "var(--default-font-family,-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\")",
+      "Inter",
+      "Space Grotesk,Space Grotesk Fallback"
+    ],
+    "gfonts": [],
+    "font_families": [
+      "var(--font-display), sans-serif",
+      "var(--font-mono)",
+      "Space Grotesk",
+      "Space Grotesk Fallback",
+      "var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace)",
+      "var(--font-body), sans-serif"
+    ],
+    "hex_sample": {
+      "#B45309": {
+        "h": 26.0,
+        "s": 90.5,
+        "l": 37.1
+      },
+      "#EF4444": {
+        "h": 0.0,
+        "s": 84.2,
+        "l": 60.2
+      },
+      "#A1A1AA": {
+        "h": 240.0,
+        "s": 5.0,
+        "l": 64.9
+      },
+      "#18181B": {
+        "h": 240.0,
+        "s": 5.9,
+        "l": 10.0
+      },
+      "#FAFAFA": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 98.0
+      },
+      "#FFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#D4D4D8": {
+        "h": 240.0,
+        "s": 4.9,
+        "l": 83.9
+      },
+      "#B91C1C": {
+        "h": 0.0,
+        "s": 73.7,
+        "l": 41.8
+      },
+      "#F59E0B": {
+        "h": 37.7,
+        "s": 92.1,
+        "l": 50.2
+      },
+      "#6B7280": {
+        "h": 220.0,
+        "s": 8.9,
+        "l": 46.1
+      },
+      "#52525B": {
+        "h": 240.0,
+        "s": 5.2,
+        "l": 33.9
+      },
+      "#DC2626": {
+        "h": 0.0,
+        "s": 72.2,
+        "l": 50.6
+      }
+    }
+  },
+  {
+    "name": "bpsc-quiz",
+    "url": "https://bpsc-quiz-nu.vercel.app",
+    "domain_type": "education / test prep PWA",
+    "vars": {
+      "bg": "#121212",
+      "card-bg": "#1E1E1E",
+      "text": "#F5F5F5",
+      "text-sub": "#AAA",
+      "primary": "#E65100",
+      "primary-light": "#332200",
+      "correct": "#2E7D32",
+      "correct-bg": "#1B3A1B",
+      "wrong": "#C62828",
+      "wrong-bg": "#3A1B1B",
+      "blue": "#1565C0",
+      "blue-bg": "#1B2A3A",
+      "border": "#333",
+      "shadow": "0 2px 8px rgba(0,0,0,0.3)",
+      "radius": "16px",
+      "font": "'Noto Sans Devanagari', 'Nirmala UI', system-ui, -apple-system, Roboto, sans-serif"
+    },
+    "hex_count": 26,
+    "warm_cream": [
+      "#EFE8DF"
+    ],
+    "near_black": [
+      "#121212",
+      "#0A0A0A"
+    ],
+    "orange_amber": [
+      "#EF6C00",
+      "#E65100"
+    ],
+    "slop_fonts": [],
+    "gfonts": [
+      "Noto+Sans+Devanagari:wght@400;600;700"
+    ],
+    "font_families": [
+      "'Noto Sans Devanagari'",
+      "var(--font)"
+    ],
+    "hex_sample": {
+      "#EF6C00": {
+        "h": 27.1,
+        "s": 100.0,
+        "l": 46.9
+      },
+      "#E8F5E9": {
+        "h": 124.6,
+        "s": 39.4,
+        "l": 93.5
+      },
+      "#EFE8DF": {
+        "h": 33.7,
+        "s": 33.3,
+        "l": 90.6
+      },
+      "#C62828": {
+        "h": 0.0,
+        "s": 66.4,
+        "l": 46.7
+      },
+      "#AAA": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 66.7
+      },
+      "#1565C0": {
+        "h": 211.9,
+        "s": 80.3,
+        "l": 41.8
+      },
+      "#121212": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 7.1
+      },
+      "#1B3A1B": {
+        "h": 120.0,
+        "s": 36.5,
+        "l": 16.7
+      },
+      "#FFF8F0": {
+        "h": 32.0,
+        "s": 100.0,
+        "l": 97.1
+      },
+      "#1A1A1A": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 10.2
+      },
+      "#FFF3E0": {
+        "h": 36.8,
+        "s": 100.0,
+        "l": 93.9
+      },
+      "#E0E0E0": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 87.8
+      }
+    }
+  },
+  {
+    "name": "sbi-kiosk-id-generator",
+    "url": "https://sbi-kiosk-id-generator.vercel.app",
+    "domain_type": "enterprise / banking kiosk utility",
+    "vars": {
+      "tw-rotate-x": "initial",
+      "tw-rotate-y": "initial",
+      "tw-rotate-z": "initial",
+      "tw-skew-x": "initial",
+      "tw-skew-y": "initial",
+      "tw-border-style": "solid",
+      "tw-leading": "var(--leading-relaxed)",
+      "tw-font-weight": "var(--font-weight-bold)",
+      "tw-tracking": "var(--tracking-widest)",
+      "tw-shadow": "0 20px 25px -5px var(--tw-shadow-color,#0000001a), 0 8px 10px -6px var(--tw-shadow-color,#0000001a)",
+      "tw-shadow-color": "initial",
+      "tw-shadow-alpha": "100%",
+      "tw-inset-shadow": "0 0 #0000",
+      "tw-inset-shadow-color": "initial",
+      "tw-inset-shadow-alpha": "100%",
+      "tw-ring-color": "var(--color-yellow-500)",
+      "tw-ring-shadow": "var(--tw-ring-inset,) 0 0 0 calc(8px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor)",
+      "tw-inset-ring-color": "initial",
+      "tw-inset-ring-shadow": "0 0 #0000",
+      "tw-ring-inset": "initial",
+      "tw-ring-offset-width": "0px",
+      "tw-ring-offset-color": "#fff",
+      "tw-ring-offset-shadow": "0 0 #0000",
+      "tw-blur": "initial",
+      "tw-brightness": "initial",
+      "tw-contrast": "initial",
+      "tw-grayscale": "initial",
+      "tw-hue-rotate": "initial",
+      "tw-invert": "initial",
+      "tw-opacity": "initial",
+      "tw-saturate": "initial",
+      "tw-sepia": "initial",
+      "tw-drop-shadow": "initial",
+      "tw-drop-shadow-color": "initial",
+      "tw-drop-shadow-alpha": "100%",
+      "tw-drop-shadow-size": "initial",
+      "font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "color-red-100": "oklch(93.6% .032 17.717)",
+      "color-red-500": "oklch(63.7% .237 25.331)",
+      "color-red-600": "oklch(57.7% .245 27.325)",
+      "color-red-700": "oklch(50.5% .213 27.518)",
+      "color-orange-500": "oklch(70.5% .213 47.604)",
+      "color-yellow-400": "oklch(85.2% .199 91.936)",
+      "color-yellow-500": "oklch(79.5% .184 86.047)",
+      "color-emerald-400": "oklch(76.5% .177 163.223)",
+      "color-emerald-600": "oklch(59.6% .145 163.225)",
+      "color-emerald-700": "oklch(50.8% .118 165.612)",
+      "color-cyan-400": "oklch(78.9% .154 211.53)",
+      "color-blue-600": "oklch(54.6% .245 262.881)",
+      "color-blue-700": "oklch(48.8% .243 264.376)",
+      "color-blue-900": "oklch(37.9% .146 265.522)",
+      "color-indigo-600": "oklch(51.1% .262 276.966)",
+      "color-indigo-700": "oklch(45.7% .24 277.023)",
+      "color-zinc-100": "oklch(96.7% .001 286.375)",
+      "color-zinc-300": "oklch(87.1% .006 286.286)",
+      "color-zinc-400": "oklch(70.5% .015 286.067)",
+      "color-zinc-500": "oklch(55.2% .016 285.938)",
+      "color-zinc-600": "oklch(44.2% .017 285.786)",
+      "color-zinc-700": "oklch(37% .013 285.805)",
+      "color-zinc-800": "oklch(27.4% .006 286.033)",
+      "color-zinc-900": "oklch(21% .006 285.885)",
+      "color-zinc-950": "oklch(14.1% .005 285.823)",
+      "color-black": "#000",
+      "color-white": "#fff",
+      "spacing": ".25rem",
+      "container-md": "28rem",
+      "container-6xl": "72rem",
+      "text-xs": ".75rem",
+      "text-xs--line-height": "calc(1 / .75)",
+      "text-sm": ".875rem",
+      "text-sm--line-height": "calc(1.25 / .875)",
+      "text-lg": "1.125rem",
+      "text-lg--line-height": "calc(1.75 / 1.125)",
+      "text-xl": "1.25rem",
+      "text-xl--line-height": "calc(1.75 / 1.25)",
+      "text-2xl": "1.5rem",
+      "text-2xl--line-height": "calc(2 / 1.5)",
+      "text-3xl": "1.875rem",
+      "text-3xl--line-height": "calc(2.25 / 1.875)",
+      "text-4xl": "2.25rem",
+      "text-4xl--line-height": "calc(2.5 / 2.25)",
+      "text-5xl": "3rem",
+      "text-5xl--line-height": "1",
+      "text-6xl": "3.75rem",
+      "text-6xl--line-height": "1",
+      "font-weight-bold": "700",
+      "font-weight-black": "900",
+      "tracking-wider": ".05em",
+      "tracking-widest": ".1em",
+      "leading-relaxed": "1.625",
+      "radius-lg": ".5rem",
+      "radius-xl": ".75rem",
+      "radius-2xl": "1rem",
+      "radius-3xl": "1.5rem",
+      "default-transition-duration": ".15s",
+      "default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+      "default-font-family": "var(--font-sans)",
+      "default-mono-font-family": "var(--font-mono)",
+      "tw-outline-style": "none"
+    },
+    "hex_count": 2,
+    "warm_cream": [],
+    "near_black": [
+      "#000"
+    ],
+    "orange_amber": [],
+    "slop_fonts": [],
+    "gfonts": [],
+    "font_families": [
+      "var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace)",
+      "var(--font-sans)",
+      "var(--font-mono)",
+      "var(--default-font-family,ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\")"
+    ],
+    "hex_sample": {
+      "#FFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#000": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 0.0
+      }
+    }
+  },
+  {
+    "name": "My-Starred-Repos",
+    "url": "https://my-starred-repos.vercel.app",
+    "domain_type": "developer dashboard / curation",
+    "vars": {
+      "color-paper": "oklch(13% 0.018 35)",
+      "color-paper-2": "oklch(17% 0.020 35)",
+      "color-paper-3": "oklch(22% 0.022 35)",
+      "color-paper-4": "oklch(28% 0.020 35)",
+      "color-ink": "oklch(95% 0.010 70)",
+      "color-ink-2": "oklch(78% 0.015 60)",
+      "color-ink-3": "oklch(58% 0.015 50)",
+      "color-rule": "oklch(28% 0.018 40)",
+      "color-rule-strong": "oklch(40% 0.025 40)",
+      "color-accent": "oklch(74% 0.180 55)",
+      "color-accent-2": "oklch(68% 0.220 18)",
+      "color-accent-soft": "oklch(74% 0.060 55)",
+      "color-accent-ink": "oklch(15% 0.040 50)",
+      "color-focus": "oklch(82% 0.180 55)",
+      "color-bloom-1": "oklch(74% 0.220 50)",
+      "color-bloom-2": "oklch(60% 0.220 15)",
+      "color-glow": "oklch(74% 0.220 50 / 0.45)",
+      "color-glow-2": "oklch(60% 0.220 15 / 0.30)",
+      "color-muted": "var(--color-ink-3)",
+      "font-display": "'Inter Tight', system-ui, -apple-system, sans-serif",
+      "font-body": "'Inter', system-ui, -apple-system, sans-serif",
+      "font-mono": "'JetBrains Mono', ui-monospace, 'SFMono-Regular', monospace",
+      "font-accent": "'Instrument Serif', 'Times New Roman', Georgia, serif",
+      "text-xs": "0.75rem",
+      "text-sm": "0.8125rem",
+      "text-base": "1rem",
+      "text-md": "1.0625rem",
+      "text-lg": "1.25rem",
+      "text-xl": "1.5rem",
+      "text-2xl": "2rem",
+      "text-3xl": "2.75rem",
+      "text-display": "clamp(2.75rem, 8vw + 0.5rem, 7.5rem)",
+      "leading-display": "0.92",
+      "leading-snug": "1.25",
+      "leading-body": "1.55",
+      "space-2xs": "0.25rem",
+      "space-xs": "0.5rem",
+      "space-sm": "0.75rem",
+      "space-md": "1rem",
+      "space-lg": "1.5rem",
+      "space-xl": "2.5rem",
+      "space-2xl": "4rem",
+      "space-3xl": "6rem",
+      "ease-out": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "ease-in": "cubic-bezier(0.4, 0, 1, 1)",
+      "ease-in-out": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "dur-fast": "140ms",
+      "dur-base": "240ms",
+      "dur-slow": "520ms",
+      "radius-xs": "3px",
+      "radius-sm": "8px",
+      "radius-md": "14px",
+      "radius-lg": "20px",
+      "radius-pill": "999px",
+      "shadow-1": "0 1px 2px rgba(0,0,0,0.2), 0 1px 3px rgba(0,0,0,0.12)",
+      "shadow-2": "0 4px 12px rgba(0,0,0,0.28), 0 2px 6px rgba(0,0,0,0.18)",
+      "shadow-3": "0 16px 40px rgba(0,0,0,0.4), 0 6px 16px rgba(0,0,0,0.28)",
+      "shadow-glow": "0 0 0 1px oklch(74% 0.18 55 / 0.35), 0 8px 30px -6px var(--color-glow)",
+      "page-gutter": "clamp(1rem, 4vw, 3rem)",
+      "max-width": "80rem"
+    },
+    "hex_count": 1,
+    "warm_cream": [],
+    "near_black": [
+      "#16100B"
+    ],
+    "orange_amber": [],
+    "slop_fonts": [
+      "'Inter Tight'",
+      "'Inter'",
+      "Inter+Tight:wght@500;600;700;800"
+    ],
+    "gfonts": [
+      "Inter+Tight:wght@500;600;700;800"
+    ],
+    "font_families": [
+      "var(--font-mono)",
+      "'JetBrains Mono'",
+      "var(--font-display)",
+      "'Instrument Serif'",
+      "'Inter Tight'",
+      "'Inter'"
+    ],
+    "hex_sample": {
+      "#16100B": {
+        "h": 27.3,
+        "s": 33.3,
+        "l": 6.5
+      }
+    }
+  },
+  {
+    "name": "neet-cbt",
+    "url": "https://neet-cbt.vercel.app",
+    "domain_type": "education / CBT exam simulator PWA",
+    "vars": {
+      "nv": "#9e9e9e",
+      "na": "#f44336",
+      "a": "#4caf50",
+      "m": "#9c27b0",
+      "badge": "#8bc34a",
+      "blue": "#1a56db",
+      "header": "#ffffff",
+      "subbar": "#f2f4f8",
+      "sidebar": "#f7f8fa",
+      "txt": "#1c2733",
+      "muted": "#5c6b7a",
+      "line": "#dfe4ea",
+      "btn-green": "#4caf50",
+      "btn-orange": "#ff9800",
+      "btn-grey": "#eef0f2",
+      "btn-blue": "#2196f3",
+      "cyan": "#00bcd4",
+      "radius": "10px"
+    },
+    "hex_count": 45,
+    "warm_cream": [],
+    "near_black": [],
+    "orange_amber": [
+      "#FF9800"
+    ],
+    "slop_fonts": [
+      "\"Segoe UI\",Roboto,Arial,sans-serif"
+    ],
+    "gfonts": [],
+    "font_families": [
+      "\"Segoe UI\",Roboto,Arial,sans-serif",
+      "Consolas,Menlo,monospace",
+      "Consolas,Menlo,monospace\"></textarea>",
+      "inherit"
+    ],
+    "hex_sample": {
+      "#00BCD4": {
+        "h": 186.8,
+        "s": 100.0,
+        "l": 41.6
+      },
+      "#F0B8B8": {
+        "h": 0.0,
+        "s": 65.1,
+        "l": 83.1
+      },
+      "#EEF4FF": {
+        "h": 218.8,
+        "s": 100.0,
+        "l": 96.7
+      },
+      "#8BC34A": {
+        "h": 87.8,
+        "s": 50.2,
+        "l": 52.7
+      },
+      "#1C2733": {
+        "h": 211.3,
+        "s": 29.1,
+        "l": 15.5
+      },
+      "#9E9E9E": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 62.0
+      },
+      "#E3E8EF": {
+        "h": 215.0,
+        "s": 27.3,
+        "l": 91.4
+      },
+      "#1B5E20": {
+        "h": 124.5,
+        "s": 55.4,
+        "l": 23.7
+      },
+      "#2E7D32": {
+        "h": 123.0,
+        "s": 46.2,
+        "l": 33.5
+      },
+      "#FDECEA": {
+        "h": 6.3,
+        "s": 82.6,
+        "l": 95.5
+      },
+      "#E8F5E9": {
+        "h": 124.6,
+        "s": 39.4,
+        "l": 93.5
+      },
+      "#FDE8E8": {
+        "h": 0.0,
+        "s": 84.0,
+        "l": 95.1
+      }
+    }
+  },
+  {
+    "name": "abhinav-roy",
+    "url": "https://abhinavroy.vercel.app",
+    "domain_type": "creative / portfolio",
+    "vars": {
+      "brand-hue": "60",
+      "paper-900": "oklch(0.14 0.02 60)",
+      "paper-800": "oklch(0.19 0.025 60)",
+      "paper-700": "oklch(0.26 0.03 60)",
+      "ink-100": "oklch(0.94 0.015 60)",
+      "ink-200": "oklch(0.82 0.02 60)",
+      "amber-300": "oklch(0.88 0.12 60)",
+      "amber-400": "oklch(0.80 0.14 60)",
+      "amber-500": "oklch(0.66 0.13 60)",
+      "stamp-600": "oklch(0.55 0.20 25)",
+      "color-bg": "var(--paper-900)",
+      "color-surface": "var(--paper-800)",
+      "color-text": "var(--ink-100)",
+      "color-text-muted": "var(--ink-200)",
+      "color-accent": "var(--amber-400)",
+      "color-accent-strong": "var(--amber-300)",
+      "ticket-bg": "var(--color-accent)",
+      "ticket-text": "var(--paper-900)",
+      "font-display": "'Bodoni Moda', Georgia, serif",
+      "font-mono": "'IBM Plex Mono', ui-monospace, monospace",
+      "font-script": "'Yellowtail', cursive",
+      "nav-height": "68px",
+      "focus-ring": "var(--color-accent-strong)",
+      "section-gap": "clamp(72px, 10vw, 128px)",
+      "grain-opacity": "0.085",
+      "radius-sm": "2px",
+      "radius-md": "4px",
+      "ab-paper-900": "var(--paper-900, var(--ab-paper-900))",
+      "ab-paper-800": "var(--paper-800, var(--ab-paper-800))",
+      "ab-paper-700": "var(--paper-700, var(--ab-paper-700))",
+      "ab-ink-100": "var(--ink-100,   var(--ab-ink-100))",
+      "ab-ink-200": "var(--ink-200,   var(--ab-ink-200))",
+      "ab-amber-300": "var(--amber-300, var(--ab-amber-300))",
+      "ab-amber-400": "var(--amber-400, var(--ab-amber-400))",
+      "ab-amber-500": "var(--amber-500, var(--ab-amber-500))",
+      "ab-stamp": "var(--stamp-600, var(--ab-stamp))",
+      "ab-grain": "0.08",
+      "ab-font-display": "var(--font-display, var(--ab-font-display))",
+      "ab-font-mono": "var(--font-mono,    var(--ab-font-mono))",
+      "ab-focus": "var(--focus-ring,   var(--ab-focus))",
+      "ab-hairline": "color-mix(in oklab, var(--ab-ink-200) 22%, transparent)",
+      "c-bg": "var(--paper-800, oklch(0.19 0.025 60))",
+      "c-bg-deep": "var(--paper-900, oklch(0.14 0.02 60))",
+      "c-text": "var(--ink-100, oklch(0.94 0.015 60))",
+      "c-muted": "var(--ink-200, oklch(0.86 0.02 60))",
+      "c-accent": "var(--amber-400, oklch(0.80 0.14 60))",
+      "c-accent-strong": "var(--amber-300, oklch(0.88 0.12 60))",
+      "c-stamp": "var(--stamp-600, oklch(0.55 0.20 25))",
+      "c-focus": "var(--focus-ring, oklch(0.88 0.12 60))",
+      "c-mono": "var(--font-mono, 'IBM Plex Mono', monospace)",
+      "c-disp": "var(--font-display, 'Bodoni Moda', serif)",
+      "c-hairline": "oklch(0.86 0.02 60 / 0.28)",
+      "f-bg": "var(--paper-800, oklch(0.19 0.025 60))",
+      "f-text": "var(--ink-100, oklch(0.94 0.015 60))",
+      "f-muted": "var(--ink-200, oklch(0.86 0.02 60))",
+      "f-accent": "var(--amber-400, oklch(0.80 0.14 60))",
+      "f-stamp": "var(--stamp-600, oklch(0.55 0.20 25))",
+      "f-focus": "var(--focus-ring, oklch(0.88 0.12 60))",
+      "f-mono": "var(--font-mono, 'IBM Plex Mono', monospace)",
+      "f-disp": "var(--font-display, 'Bodoni Moda', serif)",
+      "f-script": "'Yellowtail', cursive",
+      "f-hairline": "oklch(0.86 0.02 60 / 0.28)",
+      "ab-portrait-hue": "60\">"
+    },
+    "hex_count": 2,
+    "warm_cream": [],
+    "near_black": [
+      "#000"
+    ],
+    "orange_amber": [],
+    "slop_fonts": [],
+    "gfonts": [
+      "Bodoni+Moda:ital,opsz,wght@0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,700"
+    ],
+    "font_families": [
+      "var(--f-script)",
+      "var(--font-display), 'Bodoni Moda', Georgia, serif",
+      "'IBM Plex Mono'",
+      "var(--font-mono)",
+      "var(--f-mono)",
+      "var(--ab-font-mono)"
+    ],
+    "hex_sample": {
+      "#1A1512": {
+        "h": 22.5,
+        "s": 18.2,
+        "l": 8.6
+      },
+      "#000": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 0.0
+      }
+    }
+  },
+  {
+    "name": "akshay-svf",
+    "url": "https://akshay-svf.vercel.app",
+    "domain_type": "creative / video editing portfolio",
+    "vars": {
+      "bg-canvas": "#090d16",
+      "bg-surface": "#0f172a",
+      "bg-surface-raised": "#141f36",
+      "bg-surface-hover": "#1c2b4a",
+      "border-subtle": "rgba(255, 255, 255, 0.07)",
+      "border-prominent": "rgba(56, 189, 248, 0.25)",
+      "border-focus": "#38bdf8",
+      "text-pure": "#ffffff",
+      "text-main": "#f1f5f9",
+      "text-muted": "#94a3b8",
+      "text-dim": "#64748b",
+      "primary": "#3b82f6",
+      "primary-hover": "#2563eb",
+      "cyan": "#06b6d4",
+      "cyan-glow": "rgba(6, 182, 212, 0.15)",
+      "emerald": "#10b981",
+      "amber": "#f59e0b",
+      "amber-glow": "rgba(245, 158, 11, 0.12)",
+      "rose": "#f43f5e",
+      "sitamarhi-accent": "#38bdf8",
+      "font-sans": "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "font-mono": "'JetBrains Mono', monospace",
+      "radius-xs": "4px",
+      "radius-sm": "8px",
+      "radius-md": "12px",
+      "radius-lg": "16px",
+      "shadow-panel": "0 4px 24px -1px rgba(0, 0, 0, 0.45)"
+    },
+    "hex_count": 29,
+    "warm_cream": [],
+    "near_black": [
+      "#090D16",
+      "#020617"
+    ],
+    "orange_amber": [
+      "#F59E0B"
+    ],
+    "slop_fonts": [
+      "'Plus Jakarta Sans'"
+    ],
+    "gfonts": [
+      "Plus+Jakarta+Sans:wght@400;500;600;700;800"
+    ],
+    "font_families": [
+      "var(--font-sans)",
+      "var(--font-mono)",
+      "'JetBrains Mono'",
+      "'Plus Jakarta Sans'"
+    ],
+    "hex_sample": {
+      "#2563EB": {
+        "h": 221.2,
+        "s": 83.2,
+        "l": 53.3
+      },
+      "#1E3A8A": {
+        "h": 224.4,
+        "s": 64.3,
+        "l": 32.9
+      },
+      "#CBD5E1": {
+        "h": 212.7,
+        "s": 26.8,
+        "l": 83.9
+      },
+      "#A855F7": {
+        "h": 270.7,
+        "s": 91.0,
+        "l": 65.1
+      },
+      "#101C33": {
+        "h": 219.4,
+        "s": 52.2,
+        "l": 13.1
+      },
+      "#FFFFFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#7E22CE": {
+        "h": 272.1,
+        "s": 71.7,
+        "l": 47.1
+      },
+      "#FFF": {
+        "h": 0.0,
+        "s": 0.0,
+        "l": 100.0
+      },
+      "#38BDF8": {
+        "h": 198.4,
+        "s": 93.2,
+        "l": 59.6
+      },
+      "#047857": {
+        "h": 162.9,
+        "s": 93.5,
+        "l": 24.3
+      },
+      "#10B981": {
+        "h": 160.1,
+        "s": 84.1,
+        "l": 39.4
+      },
+      "#090D16": {
+        "h": 221.5,
+        "s": 41.9,
+        "l": 6.1
+      }
+    }
+  }
+]
