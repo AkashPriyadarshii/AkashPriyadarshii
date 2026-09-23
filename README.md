@@ -27,13 +27,13 @@ Keywords: Akash Priyadarshi, AI agents, TypeSafe AI, Jev, Rust, Kotlin, Android,
 
 | Project | Stars | Tech | What it is |
 |---------|:-----:|------|-----------|
-| [**jev-seo**](https://github.com/AkashPriyadarshii/jev-seo) | ★ 32 | Rust | Free agent-first SEO & GEO CLI suite and MCP server via DuckDuckGo and TypeSafe Jev System One |
-| [**jev-curate**](https://github.com/AkashPriyadarshii/jev-curate) | ★ 23 | Rust | High-throughput synthetic and pretraining dataset sifter for TypeSafe Jev (streaming Parquet/JSONL) |
-| [**jev-superpowers**](https://github.com/AkashPriyadarshii/jev-superpowers) | ★ 14 | Markdown / Shell | Systematic software development framework for AI coding agents with TypeSafe Jev System One |
-| [**jev-git**](https://github.com/AkashPriyadarshii/jev-git) | ★ 2 | Rust | Sub-second Git pre-commit & pre-push semantic reflex gate powered by TypeSafe AI Jev |
-| [**jev-scout**](https://github.com/AkashPriyadarshii/jev-scout) | ★ 2 | Rust | Zero-hallucination open-source repo & crate scout powered by TypeSafe AI Jev System One |
-| [**tdlib-android**](https://github.com/AkashPriyadarshii/tdlib-android) | ★ 1 | Kotlin / C++ | Precompiled TDLib for all 4 Android ABIs, built by CI, shipped as AARs with Coroutines/Flow |
-| [**kharcha**](https://github.com/AkashPriyadarshii/kharcha) | ★ 1 | Kotlin / Rust | India-first UPI expense tracker for Android (auto-captures SMS & notifications, on-device Rust core) |
+| [**jev-seo**](https://github.com/AkashPriyadarshii/jev-seo) | [![Stars](https://img.shields.io/github/stars/AkashPriyadarshii/jev-seo?style=social)](https://github.com/AkashPriyadarshii/jev-seo) | Rust | Free agent-first SEO & GEO CLI suite and MCP server via DuckDuckGo and TypeSafe Jev System One |
+| [**jev-curate**](https://github.com/AkashPriyadarshii/jev-curate) | [![Stars](https://img.shields.io/github/stars/AkashPriyadarshii/jev-curate?style=social)](https://github.com/AkashPriyadarshii/jev-curate) | Rust | High-throughput synthetic and pretraining dataset sifter for TypeSafe Jev (streaming Parquet/JSONL) |
+| [**jev-superpowers**](https://github.com/AkashPriyadarshii/jev-superpowers) | [![Stars](https://img.shields.io/github/stars/AkashPriyadarshii/jev-superpowers?style=social)](https://github.com/AkashPriyadarshii/jev-superpowers) | Markdown / Shell | Systematic software development framework for AI coding agents with TypeSafe Jev System One |
+| [**jev-git**](https://github.com/AkashPriyadarshii/jev-git) | [![Stars](https://img.shields.io/github/stars/AkashPriyadarshii/jev-git?style=social)](https://github.com/AkashPriyadarshii/jev-git) | Rust | Sub-second Git pre-commit & pre-push semantic reflex gate powered by TypeSafe AI Jev |
+| [**jev-scout**](https://github.com/AkashPriyadarshii/jev-scout) | [![Stars](https://img.shields.io/github/stars/AkashPriyadarshii/jev-scout?style=social)](https://github.com/AkashPriyadarshii/jev-scout) | Rust | Zero-hallucination open-source repo & crate scout powered by TypeSafe AI Jev System One |
+| [**tdlib-android**](https://github.com/AkashPriyadarshii/tdlib-android) | [![Stars](https://img.shields.io/github/stars/AkashPriyadarshii/tdlib-android?style=social)](https://github.com/AkashPriyadarshii/tdlib-android) | Kotlin / C++ | Precompiled TDLib for all 4 Android ABIs, built by CI, shipped as AARs with Coroutines/Flow |
+| [**kharcha**](https://github.com/AkashPriyadarshii/kharcha) | [![Stars](https://img.shields.io/github/stars/AkashPriyadarshii/kharcha?style=social)](https://github.com/AkashPriyadarshii/kharcha) | Kotlin / Rust | India-first UPI expense tracker for Android (auto-captures SMS & notifications, on-device Rust core) |
 
 ## Now
 
