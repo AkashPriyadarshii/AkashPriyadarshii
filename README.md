@@ -16,6 +16,10 @@ Keywords: Akash Priyadarshi, AI agents, TypeSafe AI, Jev, Rust, Kotlin, Android,
 
 </div>
 
+<p align="center">
+  <a href="#support">Support my work</a>
+</p>
+
 ---
 
 ## Projects & Shipped Products
