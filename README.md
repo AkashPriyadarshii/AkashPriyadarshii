@@ -88,4 +88,4 @@ Hardening the TypeSafe Jev ecosystem and pushing the portfolio up the rankings.
 
 *Built by Akash Priyadarshi for the TypeSafe AI System One ecosystem.*
 
-*Keywords: Akash Priyadarshi, Akash,Akashpriyadarshi,aakash,patna,TypeSafe AI, Jev, systems programming, solo builder, AI-augmented engineering, DuckDuckGo, Parquet, Coroutines, Maven Central, UPI, TDLib.*
+*Keywords: Akash Priyadarshi, Akash,Akashpriyadarshi,aakash,patna,TypeSafe AI, Jev, systems programming, solo builder, AI-augmented engineering,Software Engineer,Akash AI Engineer,Full Stack Engineer, DuckDuckGo, Parquet, Coroutines, Maven Central, UPI, TDLib.*
